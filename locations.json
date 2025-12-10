@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "L'Aquila",
+    "description": "Capital city of Abruzzo region",
+    "latitude": 42.3498,
+    "longitude": 13.3995,
+    "type": "city"
+  },
+  {
+    "id": 2,
+    "name": "Pescara",
+    "description": "Coastal city on the Adriatic Sea",
+    "latitude": 42.4618,
+    "longitude": 14.2111,
+    "type": "city"
+  },
+  {
+    "id": 3,
+    "name": "Teramo",
+    "description": "Historic city in northern Abruzzo",
+    "latitude": 42.6586,
+    "longitude": 13.7039,
+    "type": "city"
+  },
+  {
+    "id": 4,
+    "name": "Chieti",
+    "description": "City overlooking the Adriatic coast",
+    "latitude": 42.3510,
+    "longitude": 14.1677,
+    "type": "city"
+  },
+  {
+    "id": 5,
+    "name": "Gran Sasso d'Italia",
+    "description": "Highest mountain in the Apennines",
+    "latitude": 42.4667,
+    "longitude": 13.5833,
+    "type": "landmark"
+  },
+  {
+    "id": 6,
+    "name": "Rocca Calascio",
+    "description": "Medieval mountaintop fortress",
+    "latitude": 42.3292,
+    "longitude": 13.7069,
+    "type": "landmark"
+  },
+  {
+    "id": 7,
+    "name": "Sulmona",
+    "description": "Historic town known for confetti production",
+    "latitude": 42.0497,
+    "longitude": 13.9258,
+    "type": "town"
+  },
+  {
+    "id": 8,
+    "name": "Giulianova",
+    "description": "Seaside resort on the Adriatic coast",
+    "latitude": 42.7522,
+    "longitude": 13.9578,
+    "type": "town"
+  },
+  {
+    "id": 9,
+    "name": "Scanno",
+    "description": "Medieval hilltop town near a lake",
+    "latitude": 41.9039,
+    "longitude": 13.8819,
+    "type": "town"
+  },
+  {
+    "id": 10,
+    "name": "Vasto",
+    "description": "Historic coastal town with Roman ruins",
+    "latitude": 42.1114,
+    "longitude": 14.7081,
+    "type": "town"
+  },
+  {
+    "id": 11,
+    "name": "Parco Nazionale d'Abruzzo",
+    "description": "National park with wildlife and mountains",
+    "latitude": 41.7500,
+    "longitude": 13.8333,
+    "type": "park"
+  },
+  {
+    "id": 12,
+    "name": "Santo Stefano di Sessanio",
+    "description": "Medieval fortified village",
+    "latitude": 42.3436,
+    "longitude": 13.6442,
+    "type": "village"
+  },
+  {
+    "id": 13,
+    "name": "Civitella del Tronto",
+    "description": "Town with impressive Spanish fortress",
+    "latitude": 42.7731,
+    "longitude": 13.6681,
+    "type": "town"
+  },
+  {
+    "id": 14,
+    "name": "Atri",
+    "description": "Medieval town with Roman architecture",
+    "latitude": 42.5808,
+    "longitude": 13.9794,
+    "type": "town"
+  },
+  {
+    "id": 15,
+    "name": "Pineto",
+    "description": "Beach resort town on the Adriatic",
+    "latitude": 42.6142,
+    "longitude": 14.0669,
+    "type": "town"
+  }
+]
