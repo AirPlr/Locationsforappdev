@@ -1,14 +1,70 @@
 [
   {
     "id": 1,
-    "name": "L'Aquila",
-    "description": "Capital city of Abruzzo region",
-    "latitude": 42.3498,
-    "longitude": 13.3995,
-    "type": "city"
+    "name": "L'Aquila - Piazza del Duomo",
+    "description": "Main cathedral square in L'Aquila city center",
+    "latitude": 42.349773,
+    "longitude": 13.399503,
+    "type": "landmark"
   },
   {
     "id": 2,
+    "name": "University of L'Aquila - Coppito Campus",
+    "description": "Main campus of Università degli Studi dell'Aquila",
+    "latitude": 42.367789,
+    "longitude": 13.351234,
+    "type": "university"
+  },
+  {
+    "id": 3,
+    "name": "Basilica di San Bernardino",
+    "description": "Renaissance church in L'Aquila",
+    "latitude": 42.354267,
+    "longitude": 13.398891,
+    "type": "landmark"
+  },
+  {
+    "id": 4,
+    "name": "Fontana delle 99 Cannelle",
+    "description": "Historic fountain with 99 spouts in L'Aquila",
+    "latitude": 42.348923,
+    "longitude": 13.402156,
+    "type": "landmark"
+  },
+  {
+    "id": 5,
+    "name": "Forte Spagnolo",
+    "description": "Spanish fortress and national museum in L'Aquila",
+    "latitude": 42.351234,
+    "longitude": 13.395678,
+    "type": "landmark"
+  },
+  {
+    "id": 6,
+    "name": "L'Aquila Hospital - San Salvatore",
+    "description": "Main hospital facility in L'Aquila",
+    "latitude": 42.339567,
+    "longitude": 13.378234,
+    "type": "hospital"
+  },
+  {
+    "id": 7,
+    "name": "University of L'Aquila - Engineering Department",
+    "description": "Engineering faculty at Monteluco di Roio",
+    "latitude": 42.389123,
+    "longitude": 13.317845,
+    "type": "university"
+  },
+  {
+    "id": 8,
+    "name": "Gran Sasso Science Institute",
+    "description": "International research center and graduate school",
+    "latitude": 42.354891,
+    "longitude": 13.396234,
+    "type": "university"
+  },
+  {
+    "id": 9,
     "name": "Pescara",
     "description": "Coastal city on the Adriatic Sea",
     "latitude": 42.4618,
@@ -16,7 +72,7 @@
     "type": "city"
   },
   {
-    "id": 3,
+    "id": 10,
     "name": "Teramo",
     "description": "Historic city in northern Abruzzo",
     "latitude": 42.6586,
@@ -24,7 +80,7 @@
     "type": "city"
   },
   {
-    "id": 4,
+    "id": 11,
     "name": "Chieti",
     "description": "City overlooking the Adriatic coast",
     "latitude": 42.3510,
@@ -32,7 +88,7 @@
     "type": "city"
   },
   {
-    "id": 5,
+    "id": 12,
     "name": "Gran Sasso d'Italia",
     "description": "Highest mountain in the Apennines",
     "latitude": 42.4667,
@@ -40,7 +96,7 @@
     "type": "landmark"
   },
   {
-    "id": 6,
+    "id": 13,
     "name": "Rocca Calascio",
     "description": "Medieval mountaintop fortress",
     "latitude": 42.3292,
@@ -48,7 +104,7 @@
     "type": "landmark"
   },
   {
-    "id": 7,
+    "id": 14,
     "name": "Sulmona",
     "description": "Historic town known for confetti production",
     "latitude": 42.0497,
@@ -56,7 +112,7 @@
     "type": "town"
   },
   {
-    "id": 8,
+    "id": 15,
     "name": "Giulianova",
     "description": "Seaside resort on the Adriatic coast",
     "latitude": 42.7522,
@@ -64,7 +120,7 @@
     "type": "town"
   },
   {
-    "id": 9,
+    "id": 16,
     "name": "Scanno",
     "description": "Medieval hilltop town near a lake",
     "latitude": 41.9039,
@@ -72,7 +128,7 @@
     "type": "town"
   },
   {
-    "id": 10,
+    "id": 17,
     "name": "Vasto",
     "description": "Historic coastal town with Roman ruins",
     "latitude": 42.1114,
@@ -80,7 +136,7 @@
     "type": "town"
   },
   {
-    "id": 11,
+    "id": 18,
     "name": "Parco Nazionale d'Abruzzo, Lazio e Molise",
     "description": "National park with wildlife and mountains",
     "latitude": 41.7500,
@@ -88,7 +144,7 @@
     "type": "park"
   },
   {
-    "id": 12,
+    "id": 19,
     "name": "Santo Stefano di Sessanio",
     "description": "Medieval fortified village",
     "latitude": 42.3436,
@@ -96,7 +152,7 @@
     "type": "village"
   },
   {
-    "id": 13,
+    "id": 20,
     "name": "Civitella del Tronto",
     "description": "Town with impressive Spanish fortress",
     "latitude": 42.7731,
@@ -104,7 +160,7 @@
     "type": "town"
   },
   {
-    "id": 14,
+    "id": 21,
     "name": "Atri",
     "description": "Medieval town with Roman architecture",
     "latitude": 42.5808,
@@ -112,7 +168,7 @@
     "type": "town"
   },
   {
-    "id": 15,
+    "id": 22,
     "name": "Pineto",
     "description": "Beach resort town on the Adriatic",
     "latitude": 42.6142,
