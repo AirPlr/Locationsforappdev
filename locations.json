@@ -3,64 +3,64 @@
     "id": 1,
     "name": "L'Aquila - Piazza del Duomo",
     "description": "Main cathedral square in L'Aquila city center",
-    "latitude": 42.349773,
-    "longitude": 13.399503,
+    "latitude": 42.349850,
+    "longitude": 13.399560,
     "type": "landmark"
   },
   {
     "id": 2,
     "name": "University of L'Aquila - Coppito Campus",
     "description": "Main campus of Università degli Studi dell'Aquila",
-    "latitude": 42.367789,
-    "longitude": 13.351234,
+    "latitude": 42.367600,
+    "longitude": 13.353300,
     "type": "university"
   },
   {
     "id": 3,
     "name": "Basilica di San Bernardino",
     "description": "Renaissance church in L'Aquila",
-    "latitude": 42.354267,
-    "longitude": 13.398891,
+    "latitude": 42.351830,
+    "longitude": 13.402450,
     "type": "landmark"
   },
   {
     "id": 4,
     "name": "Fontana delle 99 Cannelle",
     "description": "Historic fountain with 99 spouts in L'Aquila",
-    "latitude": 42.348923,
-    "longitude": 13.402156,
+    "latitude": 42.350800,
+    "longitude": 13.391600,
     "type": "landmark"
   },
   {
     "id": 5,
     "name": "Forte Spagnolo",
     "description": "Spanish fortress and national museum in L'Aquila",
-    "latitude": 42.351234,
-    "longitude": 13.395678,
+    "latitude": 42.356100,
+    "longitude": 13.405000,
     "type": "landmark"
   },
   {
     "id": 6,
     "name": "L'Aquila Hospital - San Salvatore",
     "description": "Main hospital facility in L'Aquila",
-    "latitude": 42.339567,
-    "longitude": 13.378234,
+    "latitude": 42.365500,
+    "longitude": 13.349500,
     "type": "hospital"
   },
   {
     "id": 7,
     "name": "University of L'Aquila - Engineering Department",
     "description": "Engineering faculty at Monteluco di Roio",
-    "latitude": 42.389123,
-    "longitude": 13.317845,
+    "latitude": 42.335300,
+    "longitude": 13.376800,
     "type": "university"
   },
   {
     "id": 8,
     "name": "Gran Sasso Science Institute",
     "description": "International research center and graduate school",
-    "latitude": 42.354891,
-    "longitude": 13.396234,
+    "latitude": 42.344600,
+    "longitude": 13.397600,
     "type": "university"
   }
 ]
