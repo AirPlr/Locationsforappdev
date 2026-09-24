@@ -766,7 +766,7 @@
     "tabelle": [
       {
         "fermate": [
-          "LINEA",
+          "",
           "Terminalbus",
           "Via Cencioni",
           "Viale Gran Sasso",
@@ -1603,7 +1603,7 @@
       },
       {
         "fermate": [
-          "LINEA",
+          "",
           "L'Aquilone",
           "Optimes",
           "Reiss Romoli",
@@ -3211,7 +3211,7 @@
     "tabelle": [
       {
         "fermate": [
-          "LINEA",
+          "",
           "Via Saragt - THALES",
           "L'Aquilone",
           "Optimes",
@@ -3749,7 +3749,7 @@
     "tabelle": [
       {
         "fermate": [
-          "LINEA",
+          "",
           "Terminalbus",
           "Strinella",
           "Fontana Luminosa",
@@ -4175,7 +4175,7 @@
       },
       {
         "fermate": [
-          "LINEA",
+          "",
           "Università (lato ospedale)",
           "Cansatessa",
           "Antica Arischia",
@@ -4569,7 +4569,7 @@
     "tabelle": [
       {
         "fermate": [
-          "LINEA",
+          "",
           "Terminal",
           "Polveriera",
           "scuole colle sapone",
@@ -4959,7 +4959,7 @@
     "tabelle": [
       {
         "fermate": [
-          "LINEA",
+          "",
           "Terminalbus",
           "Acquasanta (lato cimitero)",
           "Tempera",
@@ -4978,8 +4978,8 @@
           "collevernesco-Sant'Elia 2",
           "Acquasanta (lato stadio)",
           "Terminalbus",
-          "LINEA",
-          "Note"
+          "",
+          ""
         ],
         "corse": [
           {
@@ -5827,7 +5827,7 @@
     "tabelle": [
       {
         "fermate": [
-          "LINEA",
+          "",
           "Terminalbus",
           "Via Cencioni",
           "C.A.S.E. Tempera",
@@ -5836,8 +5836,8 @@
           "INFN - assergi 2",
           "Funivia",
           "",
-          "Note",
-          "LINEA",
+          "",
+          "",
           "Funivia",
           "INFN - Assergi 2",
           "C.A.S.E. Camarda",
@@ -6764,7 +6764,7 @@
     "tabelle": [
       {
         "fermate": [
-          "LINEA",
+          "",
           "Terminal",
           "Via Cencioni",
           "Via Savini-Via Silone",
@@ -6961,7 +6961,7 @@
     "tabelle": [
       {
         "fermate": [
-          "Note",
+          "",
           "Terminal",
           "Via Savini-Via Silone",
           "S.Francesco",
@@ -7928,7 +7928,7 @@
     "tabelle": [
       {
         "fermate": [
-          "LINEA",
+          "",
           "Terminalbus",
           "Via XX settembre",
           "Stazione",
@@ -8889,7 +8889,7 @@
     "tabelle": [
       {
         "fermate": [
-          "Note",
+          "",
           "Terminal",
           "S.S.17",
           "Via Saragat (Aquilone)",
@@ -9359,7 +9359,7 @@
     "tabelle": [
       {
         "fermate": [
-          "LINEA",
+          "",
           "",
           "ospedale",
           "università coppito",
@@ -9372,8 +9372,8 @@
           "santi",
           "menzano",
           "",
-          "note",
-          "LINEA",
+          "",
+          "",
           "menzano",
           "casaline",
           "santi",
@@ -9690,7 +9690,7 @@
       },
       {
         "fermate": [
-          "LINEA",
+          "",
           "da terminal",
           "ospedale",
           "università coppito",
@@ -9703,8 +9703,8 @@
           "santi",
           "menzano",
           "",
-          "note",
-          "LINEA",
+          "",
+          "",
           "menzano",
           "casaline",
           "santi",
@@ -10120,7 +10120,7 @@
     "tabelle": [
       {
         "fermate": [
-          "LINEA",
+          "",
           "Cese(dir.S.R.80)",
           "NEW CAMPUS",
           "Preturo",
@@ -10601,7 +10601,7 @@
     "tabelle": [
       {
         "fermate": [
-          "LINEA",
+          "",
           "Terminal",
           "Croce Rossa",
           "università coppito",
@@ -11048,7 +11048,7 @@
     "tabelle": [
       {
         "fermate": [
-          "LINEA",
+          "",
           "Terminalbus",
           "Civita di Bagno",
           "Cavalletto d'Ocre",
@@ -11442,7 +11442,7 @@
     "tabelle": [
       {
         "fermate": [
-          "LINEA",
+          "",
           "Terminalbus",
           "s.elia-collevernesco",
           "CASE bazzano",
@@ -11683,7 +11683,7 @@
       },
       {
         "fermate": [
-          "LINEA",
+          "",
           "Picenze",
           "MAP s.gregorio",
           "s.s.17-s.gregorio",
@@ -12344,7 +12344,7 @@
     "tabelle": [
       {
         "fermate": [
-          "linea",
+          "",
           "terminal",
           "piazzale cencioni",
           "viale gran sasso",
@@ -12699,7 +12699,7 @@
     "tabelle": [
       {
         "fermate": [
-          "linea",
+          "",
           "terminalbus",
           "via Celano",
           "Matteo da Leonessa",
@@ -13435,7 +13435,7 @@
       {
         "fermate": [
           "ora partenza",
-          "itinerario",
+          "",
           "ora arrivo",
           ""
         ],
@@ -13669,9 +13669,9 @@
       },
       {
         "fermate": [
-          "ora",
           "",
-          "itinerario",
+          "",
+          "",
           "",
           ""
         ],
@@ -14068,8 +14068,8 @@
     "tabelle": [
       {
         "fermate": [
-          "ora",
-          "itinerario",
+          "",
+          "",
           ""
         ],
         "corse": [
@@ -14262,9 +14262,9 @@
     "tabelle": [
       {
         "fermate": [
-          "ora",
           "",
-          "itinerario",
+          "",
+          "",
           "",
           ""
         ],
@@ -14522,7 +14522,7 @@
     "tabelle": [
       {
         "fermate": [
-          "ora",
+          "",
           "itinerario per SCUOLA MEDIA SASSA"
         ],
         "corse": [
@@ -14572,7 +14572,7 @@
       },
       {
         "fermate": [
-          "ora",
+          "",
           "itinerario per SCUOLA MEDIA PIANOLA",
           ""
         ],
@@ -14623,7 +14623,7 @@
       {
         "fermate": [
           "ora partenza",
-          "itinerario",
+          "",
           "ora arrivo"
         ],
         "corse": [
@@ -14767,9 +14767,9 @@
       },
       {
         "fermate": [
-          "ora",
           "",
-          "itinerario",
+          "",
+          "",
           "",
           ""
         ],
@@ -14977,7 +14977,7 @@
     "tabelle": [
       {
         "fermate": [
-          "ora",
+          "",
           "itinerario per SCUOLA MEDIA PAGANICA",
           ""
         ],
@@ -15043,7 +15043,7 @@
     "tabelle": [
       {
         "fermate": [
-          "linea",
+          "",
           "terminalbus",
           "piazzale Cencioni",
           "via Panella",

@@ -34,6 +34,10 @@ HEADERS = {
     )
 }
 TIME_RE = re.compile(r"^\d{1,2}[:.,]\d{2}$")
+# etichette di intestazione strutturali (colonna corsa/note/orario), non
+# nomi di fermate reali: quando compaiono nell'elenco fermate (es. tabelle
+# a doppio senso che ripetono l'intestazione a meta' riga) vanno scartate.
+NON_STOP_LABELS = {"linea", "note", "nota", "ora", "itinerario", "corsa", "n°"}
 
 
 def fetch_url(url, attempts=6):
@@ -276,6 +280,7 @@ def extract_tabelle_from_pdf(pdf_path):
                     max_len = max(len(c["orari"]) for c in corse)
                     if fermate:
                         fermate = (fermate + [""] * max_len)[:max_len]
+                        fermate = [f if f.strip().lower() not in NON_STOP_LABELS else "" for f in fermate]
                     tabelle.append({"fermate": fermate, "corse": corse})
                     last_header_candidate = None
     except Exception as e:

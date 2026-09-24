@@ -61,21 +61,45 @@ uniche 42 delle 46 trovate dal crawler con almeno una corsa estratta) e
 route_short_name coincide col vecchio feed (es. "1", "11A", "12A", ...);
 linee mai censite prima come "A" e "B" ottengono un nuovo route_id.
 
-**Limite principale: le coordinate delle fermate.** I PDF degli orari non
-contengono lat/lon, quindi le fermate vengono associate al vecchio
-`stops.csv` solo per nome esatto (normalizzato). Il vecchio feed nomina le
-fermate in modo molto più granulare e specifico per direzione ("VIA
-STRINELLA fronte Parco Unicef" vs "lato Parco Unicef" come fermate
-distinte), mentre i PDF usano nomi generici ("Via Strinella"): il feed
-rigenerato riesce a recuperare le coordinate solo per ~5 fermate su 253
-(soprattutto capolinea come "Terminalbus", "Fontana Luminosa",
-"L'Aquilone"). Le altre ~250 fermate sono scritte con `stop_lat`/`stop_lon`
-vuoti e `need_geocoding=1` (colonna aggiunta rispetto allo standard GTFS)
-e vanno geolocalizzate a mano o con un servizio di geocoding — provare ad
-abbinarle per prefisso/sottostringa invece che per nome esatto è stato
-scartato perché il vecchio feed usa spesso "lato X" / "fronte X" per
-indicare fermate sui due lati opposti della strada: un match approssimato
-rischierebbe di assegnare coordinate sbagliate.
+**stops.csv preserva tutte le 1058 fermate del vecchio feed** (invariate,
+hanno già coordinate reali) e aggiunge solo le fermate nuove trovate nei
+PDF che non esistevano prima — non ne scarta nessuna, anche se appartiene
+a una linea che il crawler non tocca.
+
+**Limite principale: le coordinate delle fermate nuove.** I PDF degli
+orari non contengono lat/lon, quindi una fermata nuova eredita le
+coordinate di una vecchia solo per nome esatto (normalizzato). Il vecchio
+feed nomina le fermate in modo molto più granulare e specifico per
+direzione ("VIA STRINELLA fronte Parco Unicef" vs "lato Parco Unicef"
+come fermate distinte), mentre i PDF usano nomi generici ("Via
+Strinella"): delle ~254 fermate senza corrispondenza esatta, restano
+senza lat/lon e marcate `need_geocoding=1` (colonna aggiunta rispetto
+allo standard GTFS). Provare ad abbinarle per prefisso/sottostringa
+invece che per nome esatto è stato scartato perché il vecchio feed usa
+spesso "lato X" / "fronte X" per indicare fermate sui due lati opposti
+della strada: un match approssimato rischierebbe di assegnare coordinate
+sbagliate.
 
 shapes.csv non viene toccato/rigenerato: nessuna geometria di percorso è
 ricavabile dai PDF, quindi le nuove corse hanno `shape_id` vuoto.
+
+## Geocoding grafico delle fermate mancanti
+
+`geocode_tool.py` avvia un piccolo server locale con una mappa (Leaflet +
+tile OpenStreetMap, libreria vendorizzata in `geocode_static/` così non
+serve una CDN) per assegnare a mano le coordinate alle fermate con
+`need_geocoding=1` in `data/gtfs_new/stops.csv`.
+
+Uso:
+```
+python3 geocode_tool.py
+```
+
+Si apre il browser su `http://127.0.0.1:8765/`. La mappa mostra sempre
+come sfondo tutte le fermate già note (puntini grigi); selezionando una
+fermata da fare, quelle immediatamente prima/dopo nella stessa corsa (se
+già geolocalizzate) vengono evidenziate in blu come riferimento — utile
+per capire dove cliccare lungo la strada senza dover indovinare. Ogni
+click salva subito su disco (con un backup `stops.csv.bak` creato al primo
+avvio): si può chiudere e riprendere quando si vuole, il progresso non si
+perde.

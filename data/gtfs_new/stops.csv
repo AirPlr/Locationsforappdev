@@ -1143,7 +1143,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 1142,,INFN - assergi 2,,,,,,0,,,,1
 1143,,Funivia,,,,,,0,,,,1
 1144,,C.A.S.E. Camarda,,,,,,0,,,,1
-1145,,LINEA,,,,,,0,,,,1
+1145,,M6 - fermata 11 (da verificare),,,,,,0,,,,1
 1146,,C.A.S.E. Tempera,,,,,,0,,,,1
 1147,,M6B,,,,,,0,,,,1
 1148,,6S,,,,,,0,,,,1
@@ -1201,107 +1201,113 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 1200,,N.I. sassa,,,,,,0,,,,1
 1201,,santi,,,,,,0,,,,1
 1202,,menzano,,,,,,0,,,,1
-1203,,casaline,,,,,,0,,,,1
-1204,,san marco-pozza,,,,,,0,,,,1
-1205,,cese,,,,,,0,,,,1
-1206,,via della madonnella,,,,,,0,,,,1
-1207,,INADEL,,,,,,0,,,,1
-1208,,c.rossa,,,,,,0,,,,1
-1209,,da terminal,,,,,,0,,,,1
-1210,,preturo,,,,,,0,,,,1
-1211,,C.A.S.E. Coppito 3,,,,,,0,,,,1
-1212,,Coppito,,,,,,0,,,,1
-1213,,Cese(dir.S.R.80),,,,,,0,,,,1
-1214,,NEW CAMPUS,,,,,,0,,,,1
-1215,,Costarelle,,,,,,0,,,,1
-1216,,s.s 17- via scarlattei,,,,,,0,,,,1
-1217,,s.vittorino,,,,,,0,,,,1
-1218,,croce rossa,,,,,,0,,,,1
-1219,,arischia IACP,,,,,,0,,,,1
-1220,,bivio s.vittorino,,,,,,0,,,,1
-1221,,bivio cansatessa,,,,,,0,,,,1
-1222,,monte omo,,,,,,0,,,,1
-1223,,Fossa Paese,,,,,,0,,,,1
-1224,,Fossa cerro,,,,,,0,,,,1
-1225,,via della stazione,,,,,,0,,,,1
-1226,,Monticchio,,,,,,0,,,,1
-1227,,Cavalletto d'Ocre,,,,,,0,,,,1
-1228,,Civita di Bagno,,,,,,0,,,,1
-1229,,S.S. 17 EST,,,,,,0,,,,1
-1230,,CASE bazzano,,,,,,0,,,,1
-1231,,bazzano,,,,,,0,,,,1
-1232,,s.s.17-bv.onna,,,,,,0,,,,1
-1233,,s.s.17-s.gregorio,,,,,,0,,,,1
-1234,,Picenze,,,,,,0,,,,1
-1235,,MAP s.gregorio,,,,,,0,,,,1
-1236,,s.gregorio CASE ATER,,,,,,0,,,,1
-1237,,paganica,,,,,,0,,,,1
-1238,,s.elia-collevernesco,,,,,,0,,,,1
-1239,,08.00Piazzale Cencioni,,,,,,0,,,,1
-1240,,Viale Gran Sasso08.01,,,,,,0,,,,1
-1241,,Viale Duca degli Abruzzi08.02,,,,,,0,,,,1
-1242,,Corte dei Conti08.05,,,,,,0,,,,1
-1243,,Viale Duca degli Abruzzi,,,,,,0,,,,1
-1244,,Piazzale Cencioni,,,,,,0,,,,1
-1245,,viale crispi (villa comunale),,,,,,0,,,,1
-1246,,Corso Federico II,,,,,,0,,,,1
-1247,,piazza fontesecco,,,,,,0,,,,1
-1248,,piazza palazzo,,,,,,0,,,,1
-1249,,san bernardino,,,,,,0,,,,1
-1250,,fontana luminosa (lato castello),,,,,,0,,,,1
-1251,,Parcheggio ex Caserma Rossi,,,,,,0,,,,1
-1252,,NAVETTA EX-CASERMA ROSSI - fermata 1 (da verificare),,,,,,0,,,,1
-1253,,NAVETTA EX-CASERMA ROSSI - fermata 2 (da verificare),,,,,,0,,,,1
-1254,,NAVETTA EX-CASERMA ROSSI - fermata 3 (da verificare),,,,,,0,,,,1
-1255,,NAVETTA EX-CASERMA ROSSI - fermata 4 (da verificare),,,,,,0,,,,1
-1256,,cesidio,,,,,,0,,,,1
-1257,,piccinini,,,,,,0,,,,1
-1258,,via Celano,,,,,,0,,,,1
-1259,,Matteo da Leonessa,,,,,,0,,,,1
-1260,,Torretta,,,,,,0,,,,1
-1261,,Gignano,,,,,,0,,,,1
-1262,,via Marche,,,,,,0,,,,1
-1263,,s.s. 17 TER,,,,,,0,,,,1
-1264,,CASE Polveriera,,,,,,0,,,,1
-1265,,C.A.S.E. paganica 2,,,,,,0,,,,1
-1266,,mausonia,,,,,,0,,,,1
-1267,,bagno,,,,,,0,,,,1
-1268,,stazionef.s.,,,,,,0,,,,1
-1269,,xx settembre,,,,,,0,,,,1
-1270,,M14F - fermata 1 (da verificare),,,,,,0,,,,1
-1271,,M14F - fermata 2 (da verificare),,,,,,0,,,,1
-1272,,M14F - fermata 3 (da verificare),,,,,,0,,,,1
-1273,,M14F - fermata 4 (da verificare),,,,,,0,,,,1
-1274,,M14F - fermata 5 (da verificare),,,,,,0,,,,1
-1275,,M14F - fermata 6 (da verificare),,,,,,0,,,,1
-1276,,M14F - fermata 7 (da verificare),,,,,,0,,,,1
-1277,,M14F - fermata 8 (da verificare),,,,,,0,,,,1
-1278,,06.55,,,,,,0,,,,1
-1279,,06.57,,,,,,0,,,,1
-1280,,07.00,,,,,,0,,,,1
-1281,,07.05,,,,,,0,,,,1
-1282,,07.10,,,,,,0,,,,1
-1283,,07.12,,,,,,0,,,,1
-1284,,07.15,,,,,,0,,,,1
-1285,,07.30,,,,,,0,,,,1
-1286,,07.35,,,,,,0,,,,1
-1287,,via silone s.francesco,,,,,,0,,,,1
-1288,,via antica arischia,,,,,,0,,,,1
-1289,,san vittorino,,,,,,0,,,,1
-1290,,M16F - fermata 1 (da verificare),,,,,,0,,,,1
-1291,,07.45,,,,,,0,,,,1
-1292,,M16F - fermata 3 (da verificare),,,,,,0,,,,1
-1293,,via Co,,,,,,0,,,,1
-1294,,lleverne,,,,,,0,,,,1
-1295,,sco - CA,,,,,,0,,,,1
-1296,,SE San,,,,,,0,,,,1
-1297,,t'Elia 2,,,,,,0,,,,1
-1298,,- viale C,,,,,,0,,,,1
-1299,,rispi,,,,,,0,,,,1
-1300,,M16F - fermata 11 (da verificare),,,,,,0,,,,1
-1301,,08.00,,,,,,0,,,,1
-1302,,ora partenza,,,,,,0,,,,1
-1303,,Collesapone (scolastico) - fermata 4 (da verificare),,,,,,0,,,,1
-1304,,ora,,,,,,0,,,,1
-1305,,ora arrivo,,,,,,0,,,,1
-1306,,via Panella,,,,,,0,,,,1
+1203,,13 - fermata 15 (da verificare),,,,,,0,,,,1
+1204,,casaline,,,,,,0,,,,1
+1205,,san marco-pozza,,,,,,0,,,,1
+1206,,cese,,,,,,0,,,,1
+1207,,via della madonnella,,,,,,0,,,,1
+1208,,INADEL,,,,,,0,,,,1
+1209,,c.rossa,,,,,,0,,,,1
+1210,,da terminal,,,,,,0,,,,1
+1211,,preturo,,,,,,0,,,,1
+1212,,C.A.S.E. Coppito 3,,,,,,0,,,,1
+1213,,Coppito,,,,,,0,,,,1
+1214,,Cese(dir.S.R.80),,,,,,0,,,,1
+1215,,NEW CAMPUS,,,,,,0,,,,1
+1216,,Costarelle,,,,,,0,,,,1
+1217,,s.s 17- via scarlattei,,,,,,0,,,,1
+1218,,s.vittorino,,,,,,0,,,,1
+1219,,croce rossa,,,,,,0,,,,1
+1220,,arischia IACP,,,,,,0,,,,1
+1221,,bivio s.vittorino,,,,,,0,,,,1
+1222,,bivio cansatessa,,,,,,0,,,,1
+1223,,monte omo,,,,,,0,,,,1
+1224,,Fossa Paese,,,,,,0,,,,1
+1225,,Fossa cerro,,,,,,0,,,,1
+1226,,via della stazione,,,,,,0,,,,1
+1227,,Monticchio,,,,,,0,,,,1
+1228,,Cavalletto d'Ocre,,,,,,0,,,,1
+1229,,Civita di Bagno,,,,,,0,,,,1
+1230,,S.S. 17 EST,,,,,,0,,,,1
+1231,,CASE bazzano,,,,,,0,,,,1
+1232,,bazzano,,,,,,0,,,,1
+1233,,s.s.17-bv.onna,,,,,,0,,,,1
+1234,,s.s.17-s.gregorio,,,,,,0,,,,1
+1235,,Picenze,,,,,,0,,,,1
+1236,,MAP s.gregorio,,,,,,0,,,,1
+1237,,s.gregorio CASE ATER,,,,,,0,,,,1
+1238,,paganica,,,,,,0,,,,1
+1239,,s.elia-collevernesco,,,,,,0,,,,1
+1240,,08.00Piazzale Cencioni,,,,,,0,,,,1
+1241,,Viale Gran Sasso08.01,,,,,,0,,,,1
+1242,,Viale Duca degli Abruzzi08.02,,,,,,0,,,,1
+1243,,Corte dei Conti08.05,,,,,,0,,,,1
+1244,,Viale Duca degli Abruzzi,,,,,,0,,,,1
+1245,,Piazzale Cencioni,,,,,,0,,,,1
+1246,,viale crispi (villa comunale),,,,,,0,,,,1
+1247,,Corso Federico II,,,,,,0,,,,1
+1248,,piazza fontesecco,,,,,,0,,,,1
+1249,,piazza palazzo,,,,,,0,,,,1
+1250,,san bernardino,,,,,,0,,,,1
+1251,,fontana luminosa (lato castello),,,,,,0,,,,1
+1252,,Parcheggio ex Caserma Rossi,,,,,,0,,,,1
+1253,,NAVETTA EX-CASERMA ROSSI - fermata 1 (da verificare),,,,,,0,,,,1
+1254,,NAVETTA EX-CASERMA ROSSI - fermata 2 (da verificare),,,,,,0,,,,1
+1255,,NAVETTA EX-CASERMA ROSSI - fermata 3 (da verificare),,,,,,0,,,,1
+1256,,NAVETTA EX-CASERMA ROSSI - fermata 4 (da verificare),,,,,,0,,,,1
+1257,,cesidio,,,,,,0,,,,1
+1258,,piccinini,,,,,,0,,,,1
+1259,,via Celano,,,,,,0,,,,1
+1260,,Matteo da Leonessa,,,,,,0,,,,1
+1261,,Torretta,,,,,,0,,,,1
+1262,,Gignano,,,,,,0,,,,1
+1263,,via Marche,,,,,,0,,,,1
+1264,,s.s. 17 TER,,,,,,0,,,,1
+1265,,CASE Polveriera,,,,,,0,,,,1
+1266,,C.A.S.E. paganica 2,,,,,,0,,,,1
+1267,,mausonia,,,,,,0,,,,1
+1268,,bagno,,,,,,0,,,,1
+1269,,stazionef.s.,,,,,,0,,,,1
+1270,,xx settembre,,,,,,0,,,,1
+1271,,M14F - fermata 1 (da verificare),,,,,,0,,,,1
+1272,,M14F - fermata 2 (da verificare),,,,,,0,,,,1
+1273,,M14F - fermata 3 (da verificare),,,,,,0,,,,1
+1274,,M14F - fermata 4 (da verificare),,,,,,0,,,,1
+1275,,M14F - fermata 5 (da verificare),,,,,,0,,,,1
+1276,,M14F - fermata 6 (da verificare),,,,,,0,,,,1
+1277,,M14F - fermata 7 (da verificare),,,,,,0,,,,1
+1278,,M14F - fermata 8 (da verificare),,,,,,0,,,,1
+1279,,06.55,,,,,,0,,,,1
+1280,,06.57,,,,,,0,,,,1
+1281,,07.00,,,,,,0,,,,1
+1282,,07.05,,,,,,0,,,,1
+1283,,07.10,,,,,,0,,,,1
+1284,,07.12,,,,,,0,,,,1
+1285,,07.15,,,,,,0,,,,1
+1286,,07.30,,,,,,0,,,,1
+1287,,07.35,,,,,,0,,,,1
+1288,,via silone s.francesco,,,,,,0,,,,1
+1289,,via antica arischia,,,,,,0,,,,1
+1290,,san vittorino,,,,,,0,,,,1
+1291,,M16F - fermata 1 (da verificare),,,,,,0,,,,1
+1292,,07.45,,,,,,0,,,,1
+1293,,M16F - fermata 3 (da verificare),,,,,,0,,,,1
+1294,,via Co,,,,,,0,,,,1
+1295,,lleverne,,,,,,0,,,,1
+1296,,sco - CA,,,,,,0,,,,1
+1297,,SE San,,,,,,0,,,,1
+1298,,t'Elia 2,,,,,,0,,,,1
+1299,,- viale C,,,,,,0,,,,1
+1300,,rispi,,,,,,0,,,,1
+1301,,M16F - fermata 11 (da verificare),,,,,,0,,,,1
+1302,,08.00,,,,,,0,,,,1
+1303,,ora partenza,,,,,,0,,,,1
+1304,,Collesapone (scolastico) - fermata 4 (da verificare),,,,,,0,,,,1
+1305,,Collesapone (scolastico) - fermata 1 (da verificare),,,,,,0,,,,1
+1306,,Scuola Media Mazzini (scolastico) - fermata 1 (da verificare),,,,,,0,,,,1
+1307,,Scuola Media Pettino(scolastico) - fermata 1 (da verificare),,,,,,0,,,,1
+1308,,Scuola Media Sassa e Pianola (scolastico) - fermata 1 (da verificare),,,,,,0,,,,1
+1309,,ora arrivo,,,,,,0,,,,1
+1310,,SCUOLA MEDIA CARDUCCI - fermata 1 (da verificare),,,,,,0,,,,1
+1311,,SCUOLA MEDIA PAGANICA - fermata 1 (da verificare),,,,,,0,,,,1
+1312,,via Panella,,,,,,0,,,,1

@@ -2624,7 +2624,7 @@ M6,Feriale,1,2,,15,Paganica piazza,07:22
 M6,Feriale,1,3,B,2,Terminalbus,06:15
 M6,Feriale,1,3,B,5,Paganica piazza,06:40
 M6,Feriale,1,3,B,8,Funivia,06:55
-M6,Feriale,1,3,B,11,LINEA,06:55
+M6,Feriale,1,3,B,11,,06:55
 M6,Feriale,1,3,B,12,Funivia,07:00
 M6,Feriale,1,3,B,14,C.A.S.E. Camarda,07:15
 M6,Feriale,1,3,B,17,Via Cencioni,07:50
@@ -2641,7 +2641,7 @@ M6,Feriale,1,5,B,5,Paganica piazza,08:25
 M6,Feriale,1,5,B,6,C.A.S.E. Camarda,08:30
 M6,Feriale,1,5,B,7,INFN - assergi 2,08:35
 M6,Feriale,1,5,B,8,Funivia,08:45
-M6,Feriale,1,5,B,11,LINEA,09:10
+M6,Feriale,1,5,B,11,,09:10
 M6,Feriale,1,5,B,12,Funivia,09:15
 M6,Feriale,1,5,B,13,INFN - Assergi 2,09:22
 M6,Feriale,1,5,B,14,C.A.S.E. Camarda,09:35
@@ -2649,7 +2649,7 @@ M6,Feriale,1,6,B,5,Paganica piazza,09:55
 M6,Feriale,1,6,B,6,C.A.S.E. Camarda,10:00
 M6,Feriale,1,6,B,7,INFN - assergi 2,10:05
 M6,Feriale,1,6,B,8,Funivia,10:15
-M6,Feriale,1,6,B,11,LINEA,10:15
+M6,Feriale,1,6,B,11,,10:15
 M6,Feriale,1,6,B,12,Funivia,10:20
 M6,Feriale,1,6,B,13,INFN - Assergi 2,10:27
 M6,Feriale,1,6,B,14,C.A.S.E. Camarda,10:40
@@ -2657,7 +2657,7 @@ M6,Feriale,1,7,B,5,Paganica piazza,10:55
 M6,Feriale,1,7,B,6,C.A.S.E. Camarda,11:00
 M6,Feriale,1,7,B,7,INFN - assergi 2,11:05
 M6,Feriale,1,7,B,8,Funivia,11:15
-M6,Feriale,1,7,B,11,LINEA,11:15
+M6,Feriale,1,7,B,11,,11:15
 M6,Feriale,1,7,B,12,Funivia,11:20
 M6,Feriale,1,7,B,13,INFN - Assergi 2,11:27
 M6,Feriale,1,7,B,14,C.A.S.E. Camarda,11:40
@@ -2671,7 +2671,7 @@ M6,Feriale,1,8,D,5,Paganica piazza,12:30
 M6,Feriale,1,8,D,6,C.A.S.E. Camarda,12:35
 M6,Feriale,1,8,D,7,INFN - assergi 2,12:40
 M6,Feriale,1,8,D,8,Funivia,12:50
-M6,Feriale,1,8,D,11,LINEA,13:05
+M6,Feriale,1,8,D,11,,13:05
 M6,Feriale,1,8,D,12,Funivia,13:10
 M6,Feriale,1,8,D,13,INFN - Assergi 2,13:17
 M6,Feriale,1,8,D,14,C.A.S.E. Camarda,13:30
@@ -2682,7 +2682,7 @@ M6,Feriale,1,9,S,5,Paganica piazza,13:35
 M6,Feriale,1,9,S,6,C.A.S.E. Camarda,13:40
 M6,Feriale,1,9,S,7,INFN - assergi 2,13:45
 M6,Feriale,1,9,S,8,Funivia,13:55
-M6,Feriale,1,9,S,11,LINEA,13:55
+M6,Feriale,1,9,S,11,,13:55
 M6,Feriale,1,9,S,12,Funivia,14:00
 M6,Feriale,1,9,S,13,INFN - Assergi 2,14:07
 M6,Feriale,1,9,S,14,C.A.S.E. Camarda,14:15
@@ -2693,20 +2693,20 @@ M6,Feriale,1,10,D,5,Paganica piazza,14:25
 M6,Feriale,1,10,D,6,C.A.S.E. Camarda,14:30
 M6,Feriale,1,10,D,7,INFN - assergi 2,14:35
 M6,Feriale,1,10,D,8,Funivia,14:45
-M6,Feriale,1,10,D,11,LINEA,14:45
+M6,Feriale,1,10,D,11,,14:45
 M6,Feriale,1,10,D,12,Funivia,14:50
 M6,Feriale,1,10,D,13,INFN - Assergi 2,14:57
 M6,Feriale,1,10,D,14,C.A.S.E. Camarda,15:10
 M6,Feriale,1,11,D,2,Terminalbus,13:40
 M6,Feriale,1,11,D,5,Paganica piazza,14:10
 M6,Feriale,1,11,D,8,Funivia,14:25
-M6,Feriale,1,11,D,11,LINEA,14:25
+M6,Feriale,1,11,D,11,,14:25
 M6,Feriale,1,11,D,12,Funivia,14:40
 M6,Feriale,1,11,D,17,Via Cencioni,15:05
 M6,Feriale,1,12,D,2,Terminalbus,14:20
 M6,Feriale,1,12,D,5,Paganica piazza,14:50
 M6,Feriale,1,12,D,8,Funivia,15:10
-M6,Feriale,1,12,D,11,LINEA,15:10
+M6,Feriale,1,12,D,11,,15:10
 M6,Feriale,1,12,D,12,Funivia,15:15
 M6,Feriale,1,12,D,14,C.A.S.E. Camarda,15:25
 M6,Feriale,1,12,D,17,Via Cencioni,15:55
@@ -2718,7 +2718,7 @@ M6,Feriale,1,14,SF,5,Paganica piazza,15:20
 M6,Feriale,1,14,SF,6,C.A.S.E. Camarda,15:25
 M6,Feriale,1,14,SF,7,INFN - assergi 2,15:30
 M6,Feriale,1,14,SF,8,Funivia,15:40
-M6,Feriale,1,14,SF,11,LINEA,15:55
+M6,Feriale,1,14,SF,11,,15:55
 M6,Feriale,1,14,SF,12,Funivia,16:00
 M6,Feriale,1,14,SF,13,INFN - Assergi 2,16:07
 M6,Feriale,1,14,SF,14,C.A.S.E. Camarda,16:20
@@ -2727,7 +2727,7 @@ M6,Feriale,1,15,SF,5,Paganica piazza,16:30
 M6,Feriale,1,15,SF,6,C.A.S.E. Camarda,16:35
 M6,Feriale,1,15,SF,7,INFN - assergi 2,16:40
 M6,Feriale,1,15,SF,8,Funivia,16:50
-M6,Feriale,1,15,SF,11,LINEA,16:50
+M6,Feriale,1,15,SF,11,,16:50
 M6,Feriale,1,15,SF,12,Funivia,16:55
 M6,Feriale,1,15,SF,13,INFN - Assergi 2,17:02
 M6,Feriale,1,15,SF,14,C.A.S.E. Camarda,17:15
@@ -2735,7 +2735,7 @@ M6,Feriale,1,16,SF,5,Paganica piazza,17:25
 M6,Feriale,1,16,SF,6,C.A.S.E. Camarda,17:30
 M6,Feriale,1,16,SF,7,INFN - assergi 2,17:35
 M6,Feriale,1,16,SF,8,Funivia,17:45
-M6,Feriale,1,16,SF,11,LINEA,18:10
+M6,Feriale,1,16,SF,11,,18:10
 M6,Feriale,1,16,SF,12,Funivia,18:15
 M6,Feriale,1,16,SF,13,INFN - Assergi 2,18:22
 M6,Feriale,1,16,SF,14,C.A.S.E. Camarda,18:35
@@ -2743,7 +2743,7 @@ M6,Feriale,1,17,SF,5,Paganica piazza,18:45
 M6,Feriale,1,17,SF,6,C.A.S.E. Camarda,18:50
 M6,Feriale,1,17,SF,7,INFN - assergi 2,18:55
 M6,Feriale,1,17,SF,8,Funivia,19:05
-M6,Feriale,1,17,SF,11,LINEA,19:05
+M6,Feriale,1,17,SF,11,,19:05
 M6,Feriale,1,17,SF,12,Funivia,19:10
 M6,Feriale,1,17,SF,13,INFN - Assergi 2,19:17
 M6,Feriale,1,17,SF,14,C.A.S.E. Camarda,19:30
@@ -2751,7 +2751,7 @@ M6,Feriale,1,18,SF,5,Paganica piazza,19:40
 M6,Feriale,1,18,SF,6,C.A.S.E. Camarda,19:45
 M6,Feriale,1,18,SF,7,INFN - assergi 2,19:50
 M6,Feriale,1,18,SF,8,Funivia,20:00
-M6,Feriale,1,18,SF,11,LINEA,20:00
+M6,Feriale,1,18,SF,11,,20:00
 M6,Feriale,1,18,SF,12,Funivia,20:05
 M6,Feriale,1,18,SF,13,INFN - Assergi 2,20:12
 M6,Feriale,1,18,SF,14,C.A.S.E. Camarda,20:25
@@ -2759,7 +2759,7 @@ M6,Feriale,1,19,SF,5,Paganica piazza,20:35
 M6,Feriale,1,19,SF,6,C.A.S.E. Camarda,20:40
 M6,Feriale,1,19,SF,7,INFN - assergi 2,20:45
 M6,Feriale,1,19,SF,8,Funivia,20:55
-M6,Feriale,1,19,SF,11,LINEA,20:55
+M6,Feriale,1,19,SF,11,,20:55
 M6,Feriale,1,19,SF,12,Funivia,21:00
 M6,Feriale,1,19,SF,13,INFN - Assergi 2,21:07
 M6,Feriale,1,19,SF,14,C.A.S.E. Camarda,21:15
@@ -4054,7 +4054,7 @@ M12X,Feriale,1,11,OSPEDALE,5,M12X,16:50
 13,Feriale,1,1,,8,N.I. sassa,06:18
 13,Feriale,1,1,,11,santi,06:25
 13,Feriale,1,1,,12,menzano,06:30
-13,Feriale,1,1,,15,LINEA,06:30
+13,Feriale,1,1,,15,,06:30
 13,Feriale,1,1,,16,menzano,06:35
 13,Feriale,1,1,,17,casaline,06:38
 13,Feriale,1,1,,18,santi,06:45
@@ -4069,7 +4069,7 @@ M12X,Feriale,1,11,OSPEDALE,5,M12X,16:50
 13,Feriale,1,2,,10,san marco-pozza,08:15
 13,Feriale,1,2,,11,santi,08:22
 13,Feriale,1,2,,12,menzano,08:25
-13,Feriale,1,2,,15,LINEA,08:25
+13,Feriale,1,2,,15,,08:25
 13,Feriale,1,2,,16,menzano,08:28
 13,Feriale,1,2,,17,casaline,08:30
 13,Feriale,1,2,,18,santi,08:35
@@ -4088,7 +4088,7 @@ M12X,Feriale,1,11,OSPEDALE,5,M12X,16:50
 13,Feriale,1,3,,10,san marco-pozza,09:15
 13,Feriale,1,3,,11,santi,09:22
 13,Feriale,1,3,,12,menzano,09:25
-13,Feriale,1,3,,15,LINEA,09:25
+13,Feriale,1,3,,15,,09:25
 13,Feriale,1,3,,16,menzano,09:28
 13,Feriale,1,3,,17,casaline,09:30
 13,Feriale,1,3,,18,santi,09:35
@@ -4106,7 +4106,7 @@ M12X,Feriale,1,11,OSPEDALE,5,M12X,16:50
 13,Feriale,1,4,,10,san marco-pozza,10:35
 13,Feriale,1,4,,11,santi,10:42
 13,Feriale,1,4,,12,menzano,10:45
-13,Feriale,1,4,,15,LINEA,10:45
+13,Feriale,1,4,,15,,10:45
 13,Feriale,1,4,,16,menzano,10:48
 13,Feriale,1,4,,17,casaline,10:50
 13,Feriale,1,4,,18,santi,10:55
@@ -4125,7 +4125,7 @@ M12X,Feriale,1,11,OSPEDALE,5,M12X,16:50
 13,Feriale,1,5,,10,san marco-pozza,12:00
 13,Feriale,1,5,,11,santi,12:37
 13,Feriale,1,5,,12,menzano,12:45
-13,Feriale,1,5,,15,LINEA,12:45
+13,Feriale,1,5,,15,,12:45
 13,Feriale,1,5,,16,menzano,12:48
 13,Feriale,1,5,,17,casaline,12:50
 13,Feriale,1,5,,18,santi,12:55
@@ -4152,7 +4152,7 @@ M12X,Feriale,1,11,OSPEDALE,5,M12X,16:50
 13,Feriale,1,7,D,10,san marco-pozza,14:45
 13,Feriale,1,7,D,11,santi,14:52
 13,Feriale,1,7,D,12,menzano,14:55
-13,Feriale,1,7,D,15,LINEA,14:55
+13,Feriale,1,7,D,15,,14:55
 13,Feriale,1,7,D,16,menzano,14:58
 13,Feriale,1,7,D,17,casaline,15:00
 13,Feriale,1,7,D,18,santi,15:05
@@ -4172,7 +4172,7 @@ M12X,Feriale,1,11,OSPEDALE,5,M12X,16:50
 13,Feriale,1,8,D,10,san marco-pozza,17:45
 13,Feriale,1,8,D,11,santi,17:52
 13,Feriale,1,8,D,12,menzano,17:55
-13,Feriale,1,8,D,15,LINEA,17:55
+13,Feriale,1,8,D,15,,17:55
 13,Feriale,1,8,D,16,menzano,17:58
 13,Feriale,1,8,D,17,casaline,18:00
 13,Feriale,1,8,D,18,santi,18:05
@@ -4191,7 +4191,7 @@ M12X,Feriale,1,11,OSPEDALE,5,M12X,16:50
 13,Feriale,1,9,D,10,san marco-pozza,18:45
 13,Feriale,1,9,D,11,santi,18:52
 13,Feriale,1,9,D,12,menzano,18:55
-13,Feriale,1,9,D,15,LINEA,18:55
+13,Feriale,1,9,D,15,,18:55
 13,Feriale,1,9,D,16,menzano,18:58
 13,Feriale,1,9,D,17,casaline,19:00
 13,Feriale,1,9,D,18,santi,19:05
@@ -4209,7 +4209,7 @@ M12X,Feriale,1,11,OSPEDALE,5,M12X,16:50
 13,Feriale,1,10,D,10,san marco-pozza,20:35
 13,Feriale,1,10,D,11,santi,20:42
 13,Feriale,1,10,D,12,menzano,20:45
-13,Feriale,1,10,D,15,LINEA,20:45
+13,Feriale,1,10,D,15,,20:45
 13,Feriale,1,10,D,16,menzano,20:48
 13,Feriale,1,10,D,17,casaline,20:50
 13,Feriale,1,10,D,18,santi,20:55
@@ -4252,7 +4252,7 @@ M12X,Feriale,1,11,OSPEDALE,5,M12X,16:50
 13,Feriale,2,9,ES,10,san marco-pozza,14:03
 13,Feriale,2,9,ES,11,santi,14:08
 13,Feriale,2,9,ES,12,menzano,14:10
-13,Feriale,2,9,ES,15,LINEA,14:10
+13,Feriale,2,9,ES,15,,14:10
 13,Feriale,2,9,ES,16,menzano,14:16
 13,Feriale,2,9,ES,17,casaline,14:20
 13,Feriale,2,9,ES,20,cese,14:40
@@ -5760,99 +5760,99 @@ Collesapone (scolastico),Scuole,1,23,10,4,,07:55
 Collesapone (scolastico),Scuole,1,24,16X,1,ora partenza,06:55
 Collesapone (scolastico),Scuole,1,24,16X,4,,07:55
 Collesapone (scolastico),Scuole,1,25,2,1,ora partenza,07:22
-Collesapone (scolastico),Scuole,2,1,16A,1,ora,12:17
-Collesapone (scolastico),Scuole,2,2,M6,1,ora,12:20
-Collesapone (scolastico),Scuole,2,3,3V,1,ora,12:20
-Collesapone (scolastico),Scuole,2,4,M5Y,1,ora,12:25
-Collesapone (scolastico),Scuole,2,5,4A,1,ora,12:30
-Collesapone (scolastico),Scuole,2,6,19,1,ora,12:35
-Collesapone (scolastico),Scuole,2,7,15,1,ora,12:45
-Collesapone (scolastico),Scuole,2,8,11,1,ora,13:05
-Collesapone (scolastico),Scuole,2,9,16A,1,ora,13:07
-Collesapone (scolastico),Scuole,2,10,2UZ,1,ora,13:08
-Collesapone (scolastico),Scuole,2,11,3J,1,ora,13:15
-Collesapone (scolastico),Scuole,2,12,13V,1,ora,13:15
-Collesapone (scolastico),Scuole,2,13,6D,1,ora,13:15
-Collesapone (scolastico),Scuole,2,14,12,1,ora,13:15
-Collesapone (scolastico),Scuole,2,15,13Y,1,ora,13:15
-Collesapone (scolastico),Scuole,2,16,M5Y,1,ora,13:15
-Collesapone (scolastico),Scuole,2,17,M12A,1,ora,13:20
-Collesapone (scolastico),Scuole,2,18,19,1,ora,13:35
-Collesapone (scolastico),Scuole,2,19,3V,1,ora,13:35
-Collesapone (scolastico),Scuole,2,20,13X,1,ora,13:35
-Collesapone (scolastico),Scuole,2,21,15,1,ora,13:35
-Collesapone (scolastico),Scuole,2,22,M9,1,ora,13:37
-Collesapone (scolastico),Scuole,2,23,6S,1,ora,13:40
-Collesapone (scolastico),Scuole,2,24,11Y,1,ora,13:40
-Collesapone (scolastico),Scuole,2,25,13J,1,ora,13:40
-Collesapone (scolastico),Scuole,2,26,6D,1,ora,13:42
-Collesapone (scolastico),Scuole,2,27,12,1,ora,13:45
-Collesapone (scolastico),Scuole,2,28,M5Y,1,ora,13:45
-Collesapone (scolastico),Scuole,2,29,M8X,1,ora,13:50
-Collesapone (scolastico),Scuole,2,30,19P,1,ora,13:50
-Collesapone (scolastico),Scuole,2,31,1Y,1,ora,13:50
-Collesapone (scolastico),Scuole,2,32,6SO,1,ora,14:05
-Collesapone (scolastico),Scuole,2,33,16,1,ora,14:05
-Collesapone (scolastico),Scuole,2,34,10,1,ora,14:05
-Collesapone (scolastico),Scuole,2,35,7,1,ora,14:10
-Collesapone (scolastico),Scuole,2,36,12A,1,ora,14:10
-Collesapone (scolastico),Scuole,2,37,M8X,1,ora,14:25
-Scuola Media Mazzini (scolastico),Scuole,1,1,11L,1,ora,07:10
-Scuola Media Mazzini (scolastico),Scuole,1,2,13Z,1,ora,07:00
-Scuola Media Mazzini (scolastico),Scuole,1,3,12,1,ora,07:00
-Scuola Media Mazzini (scolastico),Scuole,1,4,12A,1,ora,07:10
-Scuola Media Mazzini (scolastico),Scuole,1,5,12A,1,ora,07:10
-Scuola Media Mazzini (scolastico),Scuole,1,6,3A,1,ora,07:20
-Scuola Media Mazzini (scolastico),Scuole,1,7,19G,1,ora,07:52
-Scuola Media Mazzini (scolastico),Scuole,1,8,M12A,1,ora,07:35
-Scuola Media Mazzini (scolastico),Scuole,1,9,19,1,ora,07:50
-Scuola Media Mazzini (scolastico),Scuole,1,10,2,1,ora,08:00
-Scuola Media Mazzini (scolastico),Scuole,1,11,13Y,1,ora,07:15
-Scuola Media Mazzini (scolastico),Scuole,1,12,19Y,1,ora,13:15
-Scuola Media Mazzini (scolastico),Scuole,1,13,M19X,1,ora,13:15
-Scuola Media Mazzini (scolastico),Scuole,1,14,19,1,ora,13:25
-Scuola Media Mazzini (scolastico),Scuole,1,15,11L,1,ora,13:25
-Scuola Media Mazzini (scolastico),Scuole,1,16,12,1,ora,13:20
-Scuola Media Mazzini (scolastico),Scuole,1,17,M12A,1,ora,13:30
-Scuola Media Mazzini (scolastico),Scuole,1,18,M19,1,ora,14:05
-Scuola Media Mazzini (scolastico),Scuole,1,19,19P,1,ora,14:05
-Scuola Media Mazzini (scolastico),Scuole,1,20,19,1,ora,14:05
-Scuola Media Mazzini (scolastico),Scuole,1,21,12,1,ora,14:05
-Scuola Media Mazzini (scolastico),Scuole,1,22,13J,1,ora,14:05
-Scuola Media Pettino(scolastico),Scuole,1,1,15A,1,ora,07:05
-Scuola Media Pettino(scolastico),Scuole,1,2,14D,1,ora,07:05
-Scuola Media Pettino(scolastico),Scuole,1,3,11L,1,ora,07:10
-Scuola Media Pettino(scolastico),Scuole,1,4,15L,1,ora,07:15
-Scuola Media Pettino(scolastico),Scuole,1,5,3LX,1,ora,07:30
-Scuola Media Pettino(scolastico),Scuole,1,6,12,1,ora,07:35
-Scuola Media Pettino(scolastico),Scuole,1,7,4L,1,ora,07:25
-Scuola Media Pettino(scolastico),Scuole,1,8,4L,1,ora,07:43
-Scuola Media Pettino(scolastico),Scuole,1,9,3,1,ora,07:50
-Scuola Media Pettino(scolastico),Scuole,1,10,3A,1,ora,07:50
-Scuola Media Pettino(scolastico),Scuole,1,11,13X,1,ora,07:30
-Scuola Media Pettino(scolastico),Scuole,1,12,3,1,ora,08:00
-Scuola Media Pettino(scolastico),Scuole,1,13,M14X,1,ora,07:15
-Scuola Media Pettino(scolastico),Scuole,1,14,4Y,1,ora,13:15
-Scuola Media Pettino(scolastico),Scuole,1,15,3LX,1,ora,13:20
-Scuola Media Pettino(scolastico),Scuole,1,16,3,1,ora,13:25
-Scuola Media Pettino(scolastico),Scuole,1,17,3,1,ora,13:30
-Scuola Media Pettino(scolastico),Scuole,1,18,13Y,1,ora,13:30
-Scuola Media Pettino(scolastico),Scuole,1,19,15,1,ora,13:30
-Scuola Media Pettino(scolastico),Scuole,1,20,15,1,ora,14:00
-Scuola Media Pettino(scolastico),Scuole,1,21,3,1,ora,14:07
-Scuola Media Pettino(scolastico),Scuole,1,22,3,1,ora,14:10
-Scuola Media Pettino(scolastico),Scuole,1,23,13W,1,ora,14:15
-Scuola Media Pettino(scolastico),Scuole,1,24,13Z,1,ora,14:10
-Scuola Media Sassa e Pianola (scolastico),Scuole,1,1,12,1,ora,07:25
-Scuola Media Sassa e Pianola (scolastico),Scuole,1,2,M12A,1,ora,07:40
-Scuola Media Sassa e Pianola (scolastico),Scuole,1,3,13Y,1,ora,07:04
-Scuola Media Sassa e Pianola (scolastico),Scuole,1,4,13J,1,ora,14:08
-Scuola Media Sassa e Pianola (scolastico),Scuole,1,5,12,1,ora,14:08
-Scuola Media Sassa e Pianola (scolastico),Scuole,1,6,M12A,1,ora,14:08
-Scuola Media Sassa e Pianola (scolastico),Scuole,2,1,M11Y,1,ora,07:20
-Scuola Media Sassa e Pianola (scolastico),Scuole,2,2,M10X,1,ora,07:10
-Scuola Media Sassa e Pianola (scolastico),Scuole,2,3,M11Y,1,ora,14:05
-Scuola Media Sassa e Pianola (scolastico),Scuole,2,4,M10X,1,ora,14:05
+Collesapone (scolastico),Scuole,2,1,16A,1,,12:17
+Collesapone (scolastico),Scuole,2,2,M6,1,,12:20
+Collesapone (scolastico),Scuole,2,3,3V,1,,12:20
+Collesapone (scolastico),Scuole,2,4,M5Y,1,,12:25
+Collesapone (scolastico),Scuole,2,5,4A,1,,12:30
+Collesapone (scolastico),Scuole,2,6,19,1,,12:35
+Collesapone (scolastico),Scuole,2,7,15,1,,12:45
+Collesapone (scolastico),Scuole,2,8,11,1,,13:05
+Collesapone (scolastico),Scuole,2,9,16A,1,,13:07
+Collesapone (scolastico),Scuole,2,10,2UZ,1,,13:08
+Collesapone (scolastico),Scuole,2,11,3J,1,,13:15
+Collesapone (scolastico),Scuole,2,12,13V,1,,13:15
+Collesapone (scolastico),Scuole,2,13,6D,1,,13:15
+Collesapone (scolastico),Scuole,2,14,12,1,,13:15
+Collesapone (scolastico),Scuole,2,15,13Y,1,,13:15
+Collesapone (scolastico),Scuole,2,16,M5Y,1,,13:15
+Collesapone (scolastico),Scuole,2,17,M12A,1,,13:20
+Collesapone (scolastico),Scuole,2,18,19,1,,13:35
+Collesapone (scolastico),Scuole,2,19,3V,1,,13:35
+Collesapone (scolastico),Scuole,2,20,13X,1,,13:35
+Collesapone (scolastico),Scuole,2,21,15,1,,13:35
+Collesapone (scolastico),Scuole,2,22,M9,1,,13:37
+Collesapone (scolastico),Scuole,2,23,6S,1,,13:40
+Collesapone (scolastico),Scuole,2,24,11Y,1,,13:40
+Collesapone (scolastico),Scuole,2,25,13J,1,,13:40
+Collesapone (scolastico),Scuole,2,26,6D,1,,13:42
+Collesapone (scolastico),Scuole,2,27,12,1,,13:45
+Collesapone (scolastico),Scuole,2,28,M5Y,1,,13:45
+Collesapone (scolastico),Scuole,2,29,M8X,1,,13:50
+Collesapone (scolastico),Scuole,2,30,19P,1,,13:50
+Collesapone (scolastico),Scuole,2,31,1Y,1,,13:50
+Collesapone (scolastico),Scuole,2,32,6SO,1,,14:05
+Collesapone (scolastico),Scuole,2,33,16,1,,14:05
+Collesapone (scolastico),Scuole,2,34,10,1,,14:05
+Collesapone (scolastico),Scuole,2,35,7,1,,14:10
+Collesapone (scolastico),Scuole,2,36,12A,1,,14:10
+Collesapone (scolastico),Scuole,2,37,M8X,1,,14:25
+Scuola Media Mazzini (scolastico),Scuole,1,1,11L,1,,07:10
+Scuola Media Mazzini (scolastico),Scuole,1,2,13Z,1,,07:00
+Scuola Media Mazzini (scolastico),Scuole,1,3,12,1,,07:00
+Scuola Media Mazzini (scolastico),Scuole,1,4,12A,1,,07:10
+Scuola Media Mazzini (scolastico),Scuole,1,5,12A,1,,07:10
+Scuola Media Mazzini (scolastico),Scuole,1,6,3A,1,,07:20
+Scuola Media Mazzini (scolastico),Scuole,1,7,19G,1,,07:52
+Scuola Media Mazzini (scolastico),Scuole,1,8,M12A,1,,07:35
+Scuola Media Mazzini (scolastico),Scuole,1,9,19,1,,07:50
+Scuola Media Mazzini (scolastico),Scuole,1,10,2,1,,08:00
+Scuola Media Mazzini (scolastico),Scuole,1,11,13Y,1,,07:15
+Scuola Media Mazzini (scolastico),Scuole,1,12,19Y,1,,13:15
+Scuola Media Mazzini (scolastico),Scuole,1,13,M19X,1,,13:15
+Scuola Media Mazzini (scolastico),Scuole,1,14,19,1,,13:25
+Scuola Media Mazzini (scolastico),Scuole,1,15,11L,1,,13:25
+Scuola Media Mazzini (scolastico),Scuole,1,16,12,1,,13:20
+Scuola Media Mazzini (scolastico),Scuole,1,17,M12A,1,,13:30
+Scuola Media Mazzini (scolastico),Scuole,1,18,M19,1,,14:05
+Scuola Media Mazzini (scolastico),Scuole,1,19,19P,1,,14:05
+Scuola Media Mazzini (scolastico),Scuole,1,20,19,1,,14:05
+Scuola Media Mazzini (scolastico),Scuole,1,21,12,1,,14:05
+Scuola Media Mazzini (scolastico),Scuole,1,22,13J,1,,14:05
+Scuola Media Pettino(scolastico),Scuole,1,1,15A,1,,07:05
+Scuola Media Pettino(scolastico),Scuole,1,2,14D,1,,07:05
+Scuola Media Pettino(scolastico),Scuole,1,3,11L,1,,07:10
+Scuola Media Pettino(scolastico),Scuole,1,4,15L,1,,07:15
+Scuola Media Pettino(scolastico),Scuole,1,5,3LX,1,,07:30
+Scuola Media Pettino(scolastico),Scuole,1,6,12,1,,07:35
+Scuola Media Pettino(scolastico),Scuole,1,7,4L,1,,07:25
+Scuola Media Pettino(scolastico),Scuole,1,8,4L,1,,07:43
+Scuola Media Pettino(scolastico),Scuole,1,9,3,1,,07:50
+Scuola Media Pettino(scolastico),Scuole,1,10,3A,1,,07:50
+Scuola Media Pettino(scolastico),Scuole,1,11,13X,1,,07:30
+Scuola Media Pettino(scolastico),Scuole,1,12,3,1,,08:00
+Scuola Media Pettino(scolastico),Scuole,1,13,M14X,1,,07:15
+Scuola Media Pettino(scolastico),Scuole,1,14,4Y,1,,13:15
+Scuola Media Pettino(scolastico),Scuole,1,15,3LX,1,,13:20
+Scuola Media Pettino(scolastico),Scuole,1,16,3,1,,13:25
+Scuola Media Pettino(scolastico),Scuole,1,17,3,1,,13:30
+Scuola Media Pettino(scolastico),Scuole,1,18,13Y,1,,13:30
+Scuola Media Pettino(scolastico),Scuole,1,19,15,1,,13:30
+Scuola Media Pettino(scolastico),Scuole,1,20,15,1,,14:00
+Scuola Media Pettino(scolastico),Scuole,1,21,3,1,,14:07
+Scuola Media Pettino(scolastico),Scuole,1,22,3,1,,14:10
+Scuola Media Pettino(scolastico),Scuole,1,23,13W,1,,14:15
+Scuola Media Pettino(scolastico),Scuole,1,24,13Z,1,,14:10
+Scuola Media Sassa e Pianola (scolastico),Scuole,1,1,12,1,,07:25
+Scuola Media Sassa e Pianola (scolastico),Scuole,1,2,M12A,1,,07:40
+Scuola Media Sassa e Pianola (scolastico),Scuole,1,3,13Y,1,,07:04
+Scuola Media Sassa e Pianola (scolastico),Scuole,1,4,13J,1,,14:08
+Scuola Media Sassa e Pianola (scolastico),Scuole,1,5,12,1,,14:08
+Scuola Media Sassa e Pianola (scolastico),Scuole,1,6,M12A,1,,14:08
+Scuola Media Sassa e Pianola (scolastico),Scuole,2,1,M11Y,1,,07:20
+Scuola Media Sassa e Pianola (scolastico),Scuole,2,2,M10X,1,,07:10
+Scuola Media Sassa e Pianola (scolastico),Scuole,2,3,M11Y,1,,14:05
+Scuola Media Sassa e Pianola (scolastico),Scuole,2,4,M10X,1,,14:05
 SCUOLA MEDIA CARDUCCI,Scuole,1,1,12,1,ora partenza,06:50
 SCUOLA MEDIA CARDUCCI,Scuole,1,1,12,3,ora arrivo,07:50
 SCUOLA MEDIA CARDUCCI,Scuole,1,2,4X,1,ora partenza,07:15
@@ -5887,31 +5887,31 @@ SCUOLA MEDIA CARDUCCI,Scuole,1,16,10,1,ora partenza,07:00
 SCUOLA MEDIA CARDUCCI,Scuole,1,16,10,3,ora arrivo,07:55
 SCUOLA MEDIA CARDUCCI,Scuole,1,17,16X,1,ora partenza,06:55
 SCUOLA MEDIA CARDUCCI,Scuole,1,17,16X,3,ora arrivo,07:55
-SCUOLA MEDIA CARDUCCI,Scuole,2,1,11,1,ora,13:05
-SCUOLA MEDIA CARDUCCI,Scuole,2,2,16A,1,ora,13:07
-SCUOLA MEDIA CARDUCCI,Scuole,2,3,2UZ,1,ora,13:08
-SCUOLA MEDIA CARDUCCI,Scuole,2,4,6D,1,ora,13:15
-SCUOLA MEDIA CARDUCCI,Scuole,2,5,M12A,1,ora,13:20
-SCUOLA MEDIA CARDUCCI,Scuole,2,6,19,1,ora,13:35
-SCUOLA MEDIA CARDUCCI,Scuole,2,7,15,1,ora,13:35
-SCUOLA MEDIA CARDUCCI,Scuole,2,8,13X,1,ora,13:35
-SCUOLA MEDIA CARDUCCI,Scuole,2,9,M9,1,ora,13:40
-SCUOLA MEDIA CARDUCCI,Scuole,2,10,11Y,1,ora,13:40
-SCUOLA MEDIA CARDUCCI,Scuole,2,11,13J,1,ora,13:40
-SCUOLA MEDIA CARDUCCI,Scuole,2,12,6S,1,ora,13:40
-SCUOLA MEDIA CARDUCCI,Scuole,2,13,6D,1,ora,13:42
-SCUOLA MEDIA CARDUCCI,Scuole,2,14,6SO,1,ora,14:05
-SCUOLA MEDIA CARDUCCI,Scuole,2,15,16,1,ora,14:05
-SCUOLA MEDIA CARDUCCI,Scuole,2,16,10,1,ora,14:05
-SCUOLA MEDIA CARDUCCI,Scuole,2,17,M8X,1,ora,14:07
-SCUOLA MEDIA CARDUCCI,Scuole,2,18,7,1,ora,14:10
-SCUOLA MEDIA CARDUCCI,Scuole,2,19,M8X,1,ora,14:25
-SCUOLA MEDIA PAGANICA,Scuole,1,1,M7A,1,ora,07:00
-SCUOLA MEDIA PAGANICA,Scuole,1,2,6SI,1,ora,07:30
-SCUOLA MEDIA PAGANICA,Scuole,1,3,6D,1,ora,07:40
-SCUOLA MEDIA PAGANICA,Scuole,1,4,6SO,1,ora,14:05
-SCUOLA MEDIA PAGANICA,Scuole,1,5,7,1,ora,14:20
-SCUOLA MEDIA PAGANICA,Scuole,1,6,6D,1,ora,14:05
+SCUOLA MEDIA CARDUCCI,Scuole,2,1,11,1,,13:05
+SCUOLA MEDIA CARDUCCI,Scuole,2,2,16A,1,,13:07
+SCUOLA MEDIA CARDUCCI,Scuole,2,3,2UZ,1,,13:08
+SCUOLA MEDIA CARDUCCI,Scuole,2,4,6D,1,,13:15
+SCUOLA MEDIA CARDUCCI,Scuole,2,5,M12A,1,,13:20
+SCUOLA MEDIA CARDUCCI,Scuole,2,6,19,1,,13:35
+SCUOLA MEDIA CARDUCCI,Scuole,2,7,15,1,,13:35
+SCUOLA MEDIA CARDUCCI,Scuole,2,8,13X,1,,13:35
+SCUOLA MEDIA CARDUCCI,Scuole,2,9,M9,1,,13:40
+SCUOLA MEDIA CARDUCCI,Scuole,2,10,11Y,1,,13:40
+SCUOLA MEDIA CARDUCCI,Scuole,2,11,13J,1,,13:40
+SCUOLA MEDIA CARDUCCI,Scuole,2,12,6S,1,,13:40
+SCUOLA MEDIA CARDUCCI,Scuole,2,13,6D,1,,13:42
+SCUOLA MEDIA CARDUCCI,Scuole,2,14,6SO,1,,14:05
+SCUOLA MEDIA CARDUCCI,Scuole,2,15,16,1,,14:05
+SCUOLA MEDIA CARDUCCI,Scuole,2,16,10,1,,14:05
+SCUOLA MEDIA CARDUCCI,Scuole,2,17,M8X,1,,14:07
+SCUOLA MEDIA CARDUCCI,Scuole,2,18,7,1,,14:10
+SCUOLA MEDIA CARDUCCI,Scuole,2,19,M8X,1,,14:25
+SCUOLA MEDIA PAGANICA,Scuole,1,1,M7A,1,,07:00
+SCUOLA MEDIA PAGANICA,Scuole,1,2,6SI,1,,07:30
+SCUOLA MEDIA PAGANICA,Scuole,1,3,6D,1,,07:40
+SCUOLA MEDIA PAGANICA,Scuole,1,4,6SO,1,,14:05
+SCUOLA MEDIA PAGANICA,Scuole,1,5,7,1,,14:20
+SCUOLA MEDIA PAGANICA,Scuole,1,6,6D,1,,14:05
 Stazione FF.SS. festivo,Stazione,1,1,,6,stazione F.S.,07:50
 Stazione FF.SS. festivo,Stazione,1,1,,7,croce rossa,07:53
 Stazione FF.SS. festivo,Stazione,1,1,,8,via Panella,07:57
