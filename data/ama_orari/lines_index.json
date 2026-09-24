@@ -1,0 +1,278 @@
+[
+  {
+    "linea": "Legenda linee",
+    "categoria": null,
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2013/12/LEGENDA-LINEE.pdf",
+    "fermate_principali": ""
+  },
+  {
+    "linea": "Punti di interesse",
+    "categoria": "Altri punti di interesse, come arrivo a...",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/02/orario-Punti-di-interesse.pdf",
+    "fermate_principali": "Come arrivo a....Quali linee transitano nei punti di interesse cittadino?"
+  },
+  {
+    "linea": "A",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2021/05/LineaA170926.pdf",
+    "fermate_principali": "Terminalbus Collemaggio - Stazione - Fontana Luminosa - Hotel Mysuite - Ospedale/Università"
+  },
+  {
+    "linea": "B",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2021/05/LineaB160926_2.pdf",
+    "fermate_principali": "Terminalbus Collemaggio - Stazione - Fontana Luminosa - Hotel Mysuite - Ospedale/Università"
+  },
+  {
+    "linea": "1",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/09/orario1_170926_2.pdf",
+    "fermate_principali": "Terminalbus -Leonardo Da Vinci - Ospedale - L'Aquilone/GDF"
+  },
+  {
+    "linea": "2",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2021/09/orario2_160926_2.pdf",
+    "fermate_principali": "Terminalbus - Hotel My Suite - Stazione - L'Aquilone"
+  },
+  {
+    "linea": "2U",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/10/orario2U_160926_2.pdf",
+    "fermate_principali": "Terminalbus - Stazione - università Coppito -Optimes- Centro Commerciale L'Aquilone"
+  },
+  {
+    "linea": "3",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/09/Orario-3_22092026.pdf",
+    "fermate_principali": "Ospedale San Salvatore - Cansatessa - c.da Cianfarano - q.re S.Francesco - F.luminosa-Terminalbus"
+  },
+  {
+    "linea": "5",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2020/05/orariolinea5_160926_2.pdf",
+    "fermate_principali": "Gignano - Torretta - Terminalbus"
+  },
+  {
+    "linea": "6S-6D",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/10/Orario-6D-6S_21062026.pdf",
+    "fermate_principali": "Paganica - Tempera - Terminalbus - L'Aquilone"
+  },
+  {
+    "linea": "M6",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/10/Orario-M6_M6H_22092026-1.pdf",
+    "fermate_principali": "Base funivia - Paganica - Terminalbus - S.Gregorio - Ospedale S.Salvatore"
+  },
+  {
+    "linea": "M6B",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2017/09/orarioM6B_2.pdf",
+    "fermate_principali": "Paganica paese - CASE Paganica2 - via dell'Industria"
+  },
+  {
+    "linea": "7",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/09/orario7_160926_2.pdf",
+    "fermate_principali": "Terminalbus - Tempera - Paganica - Filetto - Camarda"
+  },
+  {
+    "linea": "8",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2020/05/orario8_160926_2.pdf",
+    "fermate_principali": "Fontegrossa - Terminal"
+  },
+  {
+    "linea": "9",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2020/05/orario9_160926_2.pdf",
+    "fermate_principali": "Terminalbus - S.Francesco - Collebrincioni - Aragno"
+  },
+  {
+    "linea": "10",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2020/10/orario10_160926_2.pdf",
+    "fermate_principali": "Terminalbus - frazioni Bagno - Bagno Grande"
+  },
+  {
+    "linea": "11A",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/09/orario11A_160926_2.pdf",
+    "fermate_principali": "Ingegneria Roio - Terminalbus"
+  },
+  {
+    "linea": "11",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/09/Orario-11_M11R_21062026.pdf",
+    "fermate_principali": "Terminalbus - via XX Settembre - Stazione Fs - Roio - Ingegneria Monteluco - L'Aquilone"
+  },
+  {
+    "linea": "12",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/10/Orario-12_21092026.pdf",
+    "fermate_principali": "Terminalbus - Genzano - frazioni Sassa - Prata Peschiolo - Terminalbus"
+  },
+  {
+    "linea": "12A",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/09/ORARIO12A_160926.pdf",
+    "fermate_principali": "Terminalbus - Pagliare - Sassa - Foce di Sassa"
+  },
+  {
+    "linea": "M12X",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2013/09/orario-M12X-3.pdf",
+    "fermate_principali": "Collefracido - Ospedale San Salvatore"
+  },
+  {
+    "linea": "13",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/10/ORARIO13_160926.pdf",
+    "fermate_principali": "Terminalbus - Guardia di Finanza - aeroporto Preturo - frazioni Preturo - Menzano"
+  },
+  {
+    "linea": "14D",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/10/Orario-14D_21062026.pdf",
+    "fermate_principali": "Cese di Preturo - Università Coppito - Università Optimes - centro commerciale L'Aquilone - Sassa Scalo"
+  },
+  {
+    "linea": "15",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/09/ORARIO15_160926.pdf",
+    "fermate_principali": "Terminalbus - S.Vittorino - Arischia"
+  },
+  {
+    "linea": "16",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/09/ORARIO16_160926.pdf",
+    "fermate_principali": "Terminalbus - Monticchio - Cavalletto D'Ocre - Fossa"
+  },
+  {
+    "linea": "16A",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/10/Orario-16A_22092026.pdf",
+    "fermate_principali": "Terminalbus - Picenze - San Gregorio"
+  },
+  {
+    "linea": "M17",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2020/09/ORARIO17_160926.pdf",
+    "fermate_principali": "NAVETTA UFFICI CENTRO STORICO"
+  },
+  {
+    "linea": "CENTRO",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/09/ORARIONC_160926.pdf",
+    "fermate_principali": "Terminalbus Collemaggio - Via San Bernardino - Piazza Battaglione Alpini"
+  },
+  {
+    "linea": "NAVETTA EX-CASERMA ROSSI",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2026/08/CasermaRossi_1.pdf",
+    "fermate_principali": "Parcheggio Ex Caserma Rossi - Fontana Luminosa"
+  },
+  {
+    "linea": "NOTTURNO BUS",
+    "categoria": "Feriale",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2020/03/1751U_corretto.pdf",
+    "fermate_principali": "Centro Storico <-> Zona Est e zona Ovest"
+  },
+  {
+    "linea": "NAVETTA CENTRO FESTIVI",
+    "categoria": "Festivo",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2025/10/Navetta-centro-storico_20.pdf",
+    "fermate_principali": "Terminalbus Collemaggio - Via San Bernardino - Piazza Battaglione Alpini"
+  },
+  {
+    "linea": "2UF",
+    "categoria": "Festivo",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/07/orario-2F.pdf",
+    "fermate_principali": "L'Aquilone - Terminalbus"
+  },
+  {
+    "linea": "5F",
+    "categoria": "Festivo",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/07/Nuovo-Orario-M5F-1.pdf",
+    "fermate_principali": "Terminalbus -Torretta - Gignano"
+  },
+  {
+    "linea": "M6F",
+    "categoria": "Festivo",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/07/OrarioM6F_.pdf",
+    "fermate_principali": "Fonte Cerreto -Paganica - Terminalbus"
+  },
+  {
+    "linea": "M11F",
+    "categoria": "Festivo",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/07/orario-M11F.pdf",
+    "fermate_principali": "Roio - Bagno - Terminalbus"
+  },
+  {
+    "linea": "M14F",
+    "categoria": "Festivo",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/07/orario-M14F.pdf",
+    "fermate_principali": "Preturo - Coppito - Terminalbus"
+  },
+  {
+    "linea": "M15F",
+    "categoria": "Festivo",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/07/orario-M15F.pdf",
+    "fermate_principali": "Arischia - Ospedale S. Salvatore - Terminalbus"
+  },
+  {
+    "linea": "M16F",
+    "categoria": "Festivo",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/07/OrarioM16F.pdf",
+    "fermate_principali": "Fossa - Terminal"
+  },
+  {
+    "linea": "Collesapone (scolastico)",
+    "categoria": "Scuole",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/10/Orario-Colle-Sapone_22092026-2.pdf",
+    "fermate_principali": "Scuole di Collesapone"
+  },
+  {
+    "linea": "Istituto D. Cotugno (scolastico)",
+    "categoria": "Scuole",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/10/Orario_Cotugno_230926.pdf",
+    "fermate_principali": "Istituto Superiore Domenico Cotugno Sede Via Da Vinci - Via Carducci e Via Ficara"
+  },
+  {
+    "linea": "Scuola Media Mazzini (scolastico)",
+    "categoria": "Scuole",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/09/ScuolamediaMazzini_160926.pdf",
+    "fermate_principali": "Scuola Media Mazzini"
+  },
+  {
+    "linea": "Scuola Media Pettino(scolastico)",
+    "categoria": "Scuole",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/03/ScuolamediaPettino_190926.pdf",
+    "fermate_principali": "Scuola Media di Pettino"
+  },
+  {
+    "linea": "Scuola Media Sassa e Pianola (scolastico)",
+    "categoria": "Scuole",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/10/ScuolamediaSassa_160926-2.pdf",
+    "fermate_principali": "Scuola Media di Sassa"
+  },
+  {
+    "linea": "SCUOLA MEDIA CARDUCCI",
+    "categoria": "Scuole",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2025/11/Carducci_160926.pdf",
+    "fermate_principali": "Scuola media Carducci"
+  },
+  {
+    "linea": "SCUOLA MEDIA PAGANICA",
+    "categoria": "Scuole",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2026/09/ScuolamediaPaganica160926.pdf",
+    "fermate_principali": "Scuola media Paganica"
+  },
+  {
+    "linea": "Stazione FF.SS. festivo",
+    "categoria": "Stazione",
+    "pdf_url": "https://www.ama.laquila.it/wp-content/uploads/2022/07/orario-Stazione-FF.SS_.-festivo.pdf",
+    "fermate_principali": "Stazione ferroviaria"
+  }
+]
