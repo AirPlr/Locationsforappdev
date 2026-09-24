@@ -8,11 +8,12 @@ Cosa fa:
     con almeno una corsa estratta). Se il route_short_name coincide (a
     meno di maiuscole/spazi) con una linea del vecchio routes.csv, viene
     riusato lo stesso route_id; altrimenti ne viene creato uno nuovo.
-  - stops.csv: una riga per ogni fermata distinta trovata nei PDF. Le
-    coordinate vengono ereditate dal vecchio stops.csv quando il nome
-    normalizzato corrisponde esattamente; le fermate senza corrispondenza
-    (tipicamente quelle delle linee A/B, mai censite prima) restano senza
-    lat/lon e vanno geolocalizzate a mano.
+  - stops.csv: TUTTE le fermate del vecchio stops.csv (invariate, hanno
+    gia' coordinate reali) piu' una riga per ogni fermata nuova trovata nei
+    PDF che non esisteva prima. Una fermata dei PDF eredita l'id e le
+    coordinate di una vecchia fermata quando il nome normalizzato
+    corrisponde esattamente; altrimenti resta senza lat/lon (tipicamente le
+    fermate delle linee A/B, mai censite prima) e va geolocalizzata a mano.
   - trips.csv / stop_times.csv: rigenerati da zero per ogni corsa estratta
     dai PDF, con stop_sequence che salta le fermate non servite ("-").
 
@@ -135,7 +136,13 @@ def main():
     stop_id_by_name, next_stop_id = build_stop_id_map(old_stops)
 
     new_routes = []
-    new_stops = {}  # stop_id -> row, per evitare duplicati
+    # tutte le fermate vecchie partono gia' incluse (hanno coordinate reali
+    # e non cambiano): il crawler puo' solo riusarle o aggiungerne di nuove,
+    # mai farle sparire dal file finale.
+    new_stops = {
+        s["stop_id"]: {**{k: s.get(k, "") for k in STOPS_FIELDS}, "need_geocoding": "0"}
+        for s in old_stops
+    }
     new_trips = []
     new_stop_times = []
 
