@@ -42,3 +42,40 @@ Limiti noti:
   fermata, una colonna per corsa anziché il contrario): gli orari estratti
   sono corretti ma l'etichetta di riga mostra il nome fermata anziché il
   codice corsa.
+
+## Refactor feed GTFS con i nuovi orari
+
+`gtfs_refactor.py` prende un vecchio export GTFS (routes/stops/trips/
+stop_times.csv, es. mancante delle linee A e B) e lo rigenera usando gli
+orari freschi estratti da `ama_orari_crawler.py`.
+
+Uso:
+```
+python3 gtfs_refactor.py --old-gtfs-dir /percorso/al/vecchio/gtfs \
+    --schedules data/ama_orari/schedules.json --out-dir data/gtfs_new
+```
+
+Il risultato (già presente in `data/gtfs_new/`) contiene 42 linee (le
+uniche 42 delle 46 trovate dal crawler con almeno una corsa estratta) e
+810 corse rigenerate da zero. route_id vengono riusati quando il
+route_short_name coincide col vecchio feed (es. "1", "11A", "12A", ...);
+linee mai censite prima come "A" e "B" ottengono un nuovo route_id.
+
+**Limite principale: le coordinate delle fermate.** I PDF degli orari non
+contengono lat/lon, quindi le fermate vengono associate al vecchio
+`stops.csv` solo per nome esatto (normalizzato). Il vecchio feed nomina le
+fermate in modo molto più granulare e specifico per direzione ("VIA
+STRINELLA fronte Parco Unicef" vs "lato Parco Unicef" come fermate
+distinte), mentre i PDF usano nomi generici ("Via Strinella"): il feed
+rigenerato riesce a recuperare le coordinate solo per ~5 fermate su 253
+(soprattutto capolinea come "Terminalbus", "Fontana Luminosa",
+"L'Aquilone"). Le altre ~250 fermate sono scritte con `stop_lat`/`stop_lon`
+vuoti e `need_geocoding=1` (colonna aggiunta rispetto allo standard GTFS)
+e vanno geolocalizzate a mano o con un servizio di geocoding — provare ad
+abbinarle per prefisso/sottostringa invece che per nome esatto è stato
+scartato perché il vecchio feed usa spesso "lato X" / "fronte X" per
+indicare fermate sui due lati opposti della strada: un match approssimato
+rischierebbe di assegnare coordinate sbagliate.
+
+shapes.csv non viene toccato/rigenerato: nessuna geometria di percorso è
+ricavabile dai PDF, quindi le nuove corse hanno `shape_id` vuoto.

@@ -12345,15 +12345,15 @@
       {
         "fermate": [
           "linea",
-          "terminalterminal",
-          "piazzale cencionipiazzale cencioni",
-          "viale gran sassoviale gran sasso",
-          "croce rossacroce rossa",
-          "cesidiocesidio",
-          "piccininipiccinini",
-          "s.s.80s.s.80",
-          "ospedaleospedale",
-          "l'aquilonel'aquilone"
+          "terminal",
+          "piazzale cencioni",
+          "viale gran sasso",
+          "croce rossa",
+          "cesidio",
+          "piccinini",
+          "s.s.80",
+          "ospedale",
+          "l'aquilone"
         ],
         "corse": [
           {
@@ -13000,12 +13000,12 @@
           "mausonia",
           "bagno",
           "pianola",
-          "roio poggioroio poggio",
-          "roio pianoroio piano",
-          "roio colleroio colle",
-          "stazionef.s.stazionef.s.",
-          "xx settembrexx settembre",
-          "terminalbusterminalbus"
+          "roio poggio",
+          "roio piano",
+          "roio colle",
+          "stazionef.s.",
+          "xx settembre",
+          "terminalbus"
         ],
         "corse": [
           {
@@ -13099,16 +13099,16 @@
           "",
           "",
           "",
-          "06.5506.55",
-          "06.5706.57",
-          "07.0007.00",
-          "07.0507.05",
-          "07.1007.10",
-          "07.1207.12",
-          "07.1507.15",
-          "07.2507.25",
-          "07.3007.30",
-          "07.3507.35"
+          "06.55",
+          "06.57",
+          "07.00",
+          "07.05",
+          "07.10",
+          "07.12",
+          "07.15",
+          "07.25",
+          "07.30",
+          "07.35"
         ],
         "corse": [
           {
@@ -13193,18 +13193,18 @@
     "tabelle": [
       {
         "fermate": [
-          "via silone s.francescovia silone s.francesco",
-          "via antica arischiavia antica arischia",
-          "via manzonivia manzoni",
-          "OSPEDALEOSPEDALE",
-          "arischia IACParischia IACP",
-          "san vittorinosan vittorino",
-          "OSPEDALEOSPEDALE",
-          "via manzonivia manzoni",
-          "via antica arischiavia antica arischia",
-          "s.francesco s.francesco",
-          "via silonevia silone",
-          "terminalbusterminalbus"
+          "via silone s.francesco",
+          "via antica arischia",
+          "via manzoni",
+          "OSPEDALE",
+          "arischia IACP",
+          "san vittorino",
+          "OSPEDALE",
+          "via manzoni",
+          "via antica arischia",
+          "s.francesco",
+          "via silone",
+          "terminalbus"
         ],
         "corse": [
           {
@@ -15045,13 +15045,13 @@
         "fermate": [
           "linea",
           "terminalbus",
-          "piazzale Cencionipiazzale Cencioni",
+          "piazzale Cencioni",
           "via Panella",
           "croce rossa",
-          "stazione F.S.stazione F.S.",
+          "stazione F.S.",
           "croce rossa",
           "via Panella",
-          "piazzale Cencionipiazzale Cencioni",
+          "piazzale Cencioni",
           "terminalbus"
         ],
         "corse": [

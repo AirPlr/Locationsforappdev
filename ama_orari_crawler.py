@@ -180,8 +180,24 @@ def extract_header_labels(page, table, header_row_idx, columns):
     labels = []
     for i in range(len(columns)):
         text = re.sub(r"\s+", " ", "".join(buckets.get(i, []))).strip()
-        labels.append(text)
+        labels.append(dedupe_doubled_text(text))
     return labels
+
+
+def dedupe_doubled_text(text):
+    """Alcuni PDF disegnano il testo delle intestazioni due volte, quasi
+    sovrapposto, per simulare il grassetto (es. 'TerminalbusTerminalbus',
+    o 'via silone via silone' quando resta uno spazio fra le due copie):
+    se l'intera stringa e' la ripetizione esatta di una meta', tienine solo
+    una copia."""
+    words = text.split(" ")
+    half = len(words) // 2
+    if half >= 1 and words[:half] == words[half:]:
+        return " ".join(words[:half])
+    n = len(text)
+    if n >= 4 and n % 2 == 0 and text[: n // 2] == text[n // 2 :]:
+        return text[: n // 2]
+    return text
 
 
 def looks_like_prose(labels):
