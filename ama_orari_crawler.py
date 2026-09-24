@@ -20,6 +20,7 @@ import os
 import re
 import time
 import urllib.request
+from collections import defaultdict
 
 import pdfplumber
 
@@ -124,46 +125,147 @@ def normalize_time(value):
     return f"{hour:02d}:{minute:02d}"
 
 
-def extract_runs_from_pdf(pdf_path):
-    """Estrae le singole corse (righe orario) da un PDF di linea.
+def is_data_row(row):
+    """Una riga di tabella e' una corsa se >=40% delle celle (oltre la
+    prima, che contiene la variante/codice corsa) assomiglia a un orario."""
+    if not row or len(row) < 2:
+        return False
+    body = row[1:]
+    time_like = [c for c in body if is_time_cell(c)]
+    nonempty_body = [c for c in body if c not in (None, "")]
+    if not time_like or not nonempty_body:
+        return False
+    return len(time_like) >= len(nonempty_body) * 0.4
 
-    Ogni riga di tabella viene considerata una corsa se almeno il 40% delle
-    celle (oltre la prima, che contiene la variante/codice corsa) assomiglia
-    a un orario (HH.MM, HH:MM, HH,MM o '-' per "non transita").
-    """
-    runs = []
+
+def canonical_columns(table):
+    """Ricostruisce la griglia di colonne 'fine' dell'intera tabella: alcune
+    righe uniscono celle adiacenti (es. una nota che occupa più colonne
+    orario), quindi l'unione dei bordi di tutte le righe è più affidabile
+    dei bordi di una singola riga."""
+    edges = set()
+    for row in table.rows:
+        for cell in row.cells:
+            if cell:
+                edges.add(round(cell[0], 2))
+                edges.add(round(cell[2], 2))
+    edges = sorted(edges)
+    return list(zip(edges, edges[1:]))
+
+
+def column_index(x, columns):
+    for i, (x0, x1) in enumerate(columns):
+        if x0 - 1 <= x <= x1 + 1:
+            return i
+    return None
+
+
+def extract_header_labels(page, table, header_row_idx, columns):
+    """Ricostruisce il testo delle intestazioni di colonna, anche quando nel
+    PDF sono impaginate ruotate di 90° (una parola per colonna, letta
+    dall'alto verso il basso). I caratteri del PDF sono già nell'ordine di
+    lettura corretto nel flusso del documento: basta raggrupparli per
+    colonna senza riordinarli per posizione, che invertirebbe il testo."""
+    cells = [c for c in table.rows[header_row_idx].cells if c]
+    if not cells:
+        return None
+    top = min(c[1] for c in cells)
+    bottom = max(c[3] for c in cells)
+    buckets = defaultdict(list)
+    for ch in page.chars:
+        if top - 3 <= ch["top"] and ch["bottom"] <= bottom + 3:
+            idx = column_index(ch["x0"], columns)
+            if idx is not None:
+                buckets[idx].append(ch["text"])
+    labels = []
+    for i in range(len(columns)):
+        text = re.sub(r"\s+", " ", "".join(buckets.get(i, []))).strip()
+        labels.append(text)
+    return labels
+
+
+def looks_like_prose(labels):
+    """Scarta come intestazione un testo che e' in realta' una frase (es. la
+    riga "Itinerario: ...", tutta in un'unica cella) invece di brevi nomi di
+    fermata distribuiti su piu' colonne."""
+    non_empty = [l for l in labels if l]
+    if not non_empty:
+        return True
+    if any(len(l) > 80 for l in non_empty):
+        return True
+    if len(non_empty) <= 2 and sum(len(l) for l in non_empty) > 100:
+        return True
+    return False
+
+
+def extract_tabelle_from_pdf(pdf_path):
+    """Estrae da un PDF di linea una o piu' 'tabelle' (es. andata/ritorno),
+    ciascuna con l'elenco delle fermate (quando ricostruibile) e le corse
+    con i relativi orari, allineati posizionalmente alle fermate."""
+    tabelle = []
     try:
         with pdfplumber.open(pdf_path) as pdf:
             for page in pdf.pages:
-                for table in page.extract_tables():
-                    for row in table:
-                        if not row or len(row) < 2:
-                            continue
-                        body = row[1:]
-                        time_like = [c for c in body if is_time_cell(c)]
-                        nonempty_body = [c for c in body if c not in (None, "")]
-                        if not time_like or not nonempty_body:
-                            continue
-                        if len(time_like) < len(nonempty_body) * 0.4:
-                            continue
-                        orari = [normalize_time(c) for c in body]
+                tables = page.find_tables()
+                last_header_candidate = None
+                for table in tables:
+                    text_rows = table.extract()
+                    data_indices = [i for i, row in enumerate(text_rows) if is_data_row(row)]
+                    if not data_indices:
+                        if text_rows and len(text_rows) <= 3:
+                            last_header_candidate = (table, len(text_rows) - 1)
+                        continue
+
+                    columns = canonical_columns(table)
+                    fermate = None
+                    # la riga di intestazione e' di solito subito sopra la prima
+                    # corsa, ma a volte e' separata da righe vuote residue
+                    # (artefatti della griglia): risaliamo fino alla prima riga
+                    # non vuota.
+                    header_idx = None
+                    for cand in range(data_indices[0] - 1, max(data_indices[0] - 6, -1), -1):
+                        if any(c not in (None, "") for c in text_rows[cand]):
+                            header_idx = cand
+                            break
+                    if header_idx is not None:
+                        labels = extract_header_labels(page, table, header_idx, columns)
+                        if labels and not looks_like_prose(labels):
+                            fermate = labels[1:]
+                    if fermate is None and last_header_candidate is not None:
+                        h_table, h_idx = last_header_candidate
+                        h_columns = canonical_columns(h_table)
+                        labels = extract_header_labels(page, h_table, h_idx, h_columns)
+                        if labels and not looks_like_prose(labels):
+                            fermate = labels[1:]
+
+                    corse = []
+                    last_variant = None
+                    for i in data_indices:
+                        row = text_rows[i]
+                        variant = (row[0] or "").strip().replace("\n", " ")
+                        # una cella di variante molto lunga e' quasi certamente
+                        # un elenco di fermate finito nella colonna sbagliata
+                        # (celle unite su piu' righe), non un vero codice corsa
+                        if len(variant) > 40:
+                            variant = ""
+                        if variant:
+                            last_variant = variant
+                        orari = [normalize_time(c) for c in row[1:]]
                         if not any(orari):
                             continue
-                        variante = (row[0] or "").strip().replace("\n", " ")
-                        runs.append({"variante_raw": variante, "orari": orari})
+                        corse.append({"variante_raw": variant or last_variant, "orari": orari})
+                    if not corse:
+                        continue
+
+                    max_len = max(len(c["orari"]) for c in corse)
+                    if fermate:
+                        fermate = (fermate + [""] * max_len)[:max_len]
+                    tabelle.append({"fermate": fermate, "corse": corse})
+                    last_header_candidate = None
     except Exception as e:
         print(f"    errore parsing {pdf_path}: {e}")
-        return runs, str(e)
-
-    # le celle di variante che si estendono su più righe (rowspan) risultano
-    # vuote nelle righe successive: propaghiamo l'ultimo valore noto
-    last_variant = None
-    for r in runs:
-        if r["variante_raw"]:
-            last_variant = r["variante_raw"]
-        else:
-            r["variante_raw"] = last_variant
-    return runs, None
+        return tabelle, str(e)
+    return tabelle, None
 
 
 def parse_all(lines_index):
@@ -171,19 +273,24 @@ def parse_all(lines_index):
     for line in lines_index:
         path = line.get("pdf_local_path")
         if not path or not os.path.exists(path):
-            schedules.append({**line, "corse": [], "errore": "PDF non scaricato"})
+            schedules.append({**line, "tabelle": [], "errore": "PDF non scaricato"})
             continue
-        runs, error = extract_runs_from_pdf(path)
-        entry = {**line, "corse": runs}
+        tabelle, error = extract_tabelle_from_pdf(path)
+        entry = {**line, "tabelle": tabelle}
+        num_corse = sum(len(t["corse"]) for t in tabelle)
+        num_con_fermate = sum(1 for t in tabelle if t["fermate"])
         if error:
             entry["errore"] = f"parsing fallito: {error}"
-        elif not runs:
+        elif not tabelle:
             entry["errore"] = (
                 "nessuna corsa estratta (probabile PDF basato su immagine/scansione, "
                 "richiede OCR)"
             )
+        print(
+            f"  {line['linea']}: {num_corse} corse in {len(tabelle)} tabelle "
+            f"({num_con_fermate} con nomi fermata)"
+        )
         schedules.append(entry)
-        print(f"  {line['linea']}: {len(runs)} corse estratte")
     return schedules
 
 
@@ -200,12 +307,13 @@ def export(schedules):
             ["linea", "categoria", "num_corse", "prima_partenza", "ultimo_orario", "pdf_url", "note"]
         )
         for s in schedules:
-            all_times = [t for run in s["corse"] for t in run["orari"] if t]
+            all_times = [t for tab in s["tabelle"] for run in tab["corse"] for t in run["orari"] if t]
+            num_corse = sum(len(tab["corse"]) for tab in s["tabelle"])
             writer.writerow(
                 [
                     s["linea"],
                     s["categoria"],
-                    len(s["corse"]),
+                    num_corse,
                     min(all_times) if all_times else "",
                     max(all_times) if all_times else "",
                     s["pdf_url"],
@@ -216,14 +324,28 @@ def export(schedules):
     long_path = os.path.join(DATA_DIR, "schedules_long.csv")
     with open(long_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(["linea", "categoria", "corsa_n", "variante", "posizione_fermata", "orario"])
+        writer.writerow(
+            ["linea", "categoria", "tabella_n", "corsa_n", "variante", "posizione_fermata", "fermata", "orario"]
+        )
         for s in schedules:
-            for corsa_n, run in enumerate(s["corse"], start=1):
-                for pos, orario in enumerate(run["orari"], start=1):
-                    if orario:
-                        writer.writerow(
-                            [s["linea"], s["categoria"], corsa_n, run["variante_raw"], pos, orario]
-                        )
+            for tabella_n, tab in enumerate(s["tabelle"], start=1):
+                fermate = tab["fermate"] or []
+                for corsa_n, run in enumerate(tab["corse"], start=1):
+                    for pos, orario in enumerate(run["orari"], start=1):
+                        if orario:
+                            fermata = fermate[pos - 1] if pos - 1 < len(fermate) else ""
+                            writer.writerow(
+                                [
+                                    s["linea"],
+                                    s["categoria"],
+                                    tabella_n,
+                                    corsa_n,
+                                    run["variante_raw"],
+                                    pos,
+                                    fermata,
+                                    orario,
+                                ]
+                            )
 
     print(f"\nEsportato in {DATA_DIR}:")
     print("  - schedules.json (dati completi)")
