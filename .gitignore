@@ -1,0 +1,4 @@
+data/ama_orari/pdf/
+__pycache__/
+*.pyc
+data/gtfs_new/*.bak
