@@ -196,6 +196,7 @@ let pending = null; // {lat, lon}
 let STOPS = [];
 let byId = {};
 let activeId = null;
+let history = []; // stop id visitati prima di quello attuale, per "Indietro"
 
 function fmtCoord(v){ return v==null ? '–' : v.toFixed(5); }
 
@@ -248,13 +249,23 @@ function renderList(){
       const routesBadges = s.routes.slice(0,6).map(r => '<span class="badge">'+r+'</span>').join('');
       div.innerHTML = '<div class="name">' + (s.lat!=null ? '✓ ' : '') + escapeHtml(s.name) + '</div>' +
         '<div class="meta">' + routesBadges + (s.routes.length>6 ? '+'+(s.routes.length-6) : '') + '</div>';
-      div.addEventListener('click', () => selectStop(s.id));
+      div.addEventListener('click', () => goTo(s.id));
       listEl.appendChild(div);
     });
 }
 
 function escapeHtml(s){
   return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function goTo(id){
+  if(activeId!=null && id!==activeId){ history.push(activeId); }
+  selectStop(id);
+}
+
+function goBack(){
+  if(!history.length) return;
+  selectStop(history.pop());
 }
 
 function selectStop(id){
@@ -298,9 +309,11 @@ function renderPanel(s){
     '<div class="hint">Linee: ' + (s.routes.join(', ') || '—') + '<br>' +
     'Fermate vicine con coordinate note: ' + nKnown + (nKnown ? ' (evidenziate in blu)' : '') + '</div>' +
     '<div class="coords">lat: ' + fmtCoord(coords && coords.lat) + ' · lon: ' + fmtCoord(coords && coords.lng) + '</div>' +
+    '<button id="btnBack" ' + (history.length?'':'disabled') + '>← Indietro</button>' +
     '<button class="primary" id="btnSave" ' + (coords?'':'disabled') + '>Salva e vai alla prossima</button>' +
     '<button id="btnSkip">Salta</button>' +
     '<div id="addr-results"></div>';
+  document.getElementById('btnBack').addEventListener('click', goBack);
   document.getElementById('btnSave').addEventListener('click', () => confirmStop(s.id, coords));
   document.getElementById('btnSkip').addEventListener('click', nextPending);
 }
@@ -318,7 +331,7 @@ async function confirmStop(id, coords){
 
 function nextPending(){
   const next = STOPS.find(s => s.need && s.id!==activeId && byId[s.id].lat==null);
-  if(next){ selectStop(next.id); }
+  if(next){ goTo(next.id); }
   else {
     document.getElementById('panel').innerHTML = '<div class="hint">Tutte le fermate visibili sono state geolocalizzate 🎉</div>';
     activeId = null;
